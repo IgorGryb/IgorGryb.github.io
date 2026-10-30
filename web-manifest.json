@@ -8,23 +8,23 @@
     },
     {
       "path": "arxa-case-study.html",
-      "size": 14799,
-      "sha256": "c5a1a2a35a4d873fad1515dbe5a026ec24f1ff437d732a56c02d843508feeabf"
+      "size": 14736,
+      "sha256": "e9f52205ad7caf1380d6a278477d7c373e1fa083bfcbc509931b95aefae1ae1e"
     },
     {
       "path": "arxa-overview.html",
-      "size": 4132,
-      "sha256": "1b74292177c8cd64e523a6562e531aceee5a7dfb9bc5f8b06414224c4bad79ac"
+      "size": 4071,
+      "sha256": "6306326afee8573bd4a099b28aac5af7903145c2d9b5f8fa390462852bf2dee8"
     },
     {
       "path": "arxis-case-study.html",
-      "size": 12349,
-      "sha256": "2b72e6967ecd823ada97492fe66b6d57d11928aacf9285a28cb495f66225da09"
+      "size": 12321,
+      "sha256": "cd5bd833207bf71b0a2bb1b845a2ba5371b02b9bcf9c5bfaa8f3ddd74da0d524"
     },
     {
       "path": "arxis-overview.html",
-      "size": 4095,
-      "sha256": "00457a514427b88442e593ffcbc0a613e29785042a0d8edee716c08e9cce0632"
+      "size": 4045,
+      "sha256": "376d11d27f57384d1d6b462a0764a6f773da9776e0d58b648780f11b680bcf76"
     },
     {
       "path": "downloads/Igor-Grybek-Master-CV.pdf",
@@ -32,24 +32,9 @@
       "sha256": "96b627ebcad4279d734d79e6b81969dbaeb22a786736cf268727c30231a6e054"
     },
     {
-      "path": "downloads/arxa-case-study.pdf",
-      "size": 11177,
-      "sha256": "af734516aab75bfa9aafb537a36d182dee83d99e822888c5e8304d555e9c6247"
-    },
-    {
       "path": "downloads/arxa-decision-model.xlsx",
       "size": 8130,
       "sha256": "9a43dc0b4c279a247d8da8ae1fa3b1d5ce8b346c426e65d9ecf9e2c765f34c08"
-    },
-    {
-      "path": "downloads/arxa-overview.pdf",
-      "size": 2916,
-      "sha256": "4a11f92c55de39ee9d3a55d644c31990795c90c608d6851effc8946aae5dfabd"
-    },
-    {
-      "path": "downloads/arxis-case-study.pdf",
-      "size": 9143,
-      "sha256": "84987bbd110bb5508f595be8d54b9d2d739f2eec92058e2b4ddd7dca5ac36522"
     },
     {
       "path": "downloads/arxis-decision-model.xlsx",
@@ -57,39 +42,14 @@
       "sha256": "1dce1d2b9ba77c4ee6f3859b122891d300fb1d9b1ed07690ef28025e6dcbdef8"
     },
     {
-      "path": "downloads/arxis-overview.pdf",
-      "size": 2894,
-      "sha256": "a0abff904f282fcd44323cba2aad8ee2bd6afe725f76fb27adb34e0cbf857737"
-    },
-    {
-      "path": "downloads/edna-case-study.pdf",
-      "size": 11568,
-      "sha256": "ed243c27e069b24dad4697a9130ea1f9064cccdf4c4bcf975711ffd57fb7c73f"
-    },
-    {
       "path": "downloads/edna-decision-model.xlsx",
       "size": 8197,
       "sha256": "ad961979ec4f7549c423e2bcdf5f93430bb2583661308f7b4d378fa98cb057f3"
     },
     {
-      "path": "downloads/edna-overview.pdf",
-      "size": 2921,
-      "sha256": "ea7d7ccd005ba416d5ffa8f00aca11c54bec20a7ac4e53484dc7ede2b38fa7b2"
-    },
-    {
-      "path": "downloads/hobbly-case-study.pdf",
-      "size": 10946,
-      "sha256": "056aea8468ecd7ca8ead33b55e02ef6891aaab7bb44c85205a033e1d661f39a8"
-    },
-    {
       "path": "downloads/hobbly-decision-model.xlsx",
       "size": 8162,
       "sha256": "ce3378dddb26c1b94dcaa964d6ae7de652f7392644a122507fb6ab97ac7a7a21"
-    },
-    {
-      "path": "downloads/hobbly-overview.pdf",
-      "size": 2922,
-      "sha256": "6d7bf9aa97beae108a848aa2bf312246e1724e17afeddd79393c6b3bb2f0e5fb"
     },
     {
       "path": "downloads/igor-grybek-high-density-master-cv.pdf",
@@ -98,23 +58,23 @@
     },
     {
       "path": "edna-case-study.html",
-      "size": 14289,
-      "sha256": "a3801a087c65de154d20d95a41e9578a1dddcfdae768e7ba5d1d676aa83e3cf7"
+      "size": 14428,
+      "sha256": "a1039bbf84c41c876d176a72b1ea21073f4549c8f88d26825953e30e1622e00b"
     },
     {
       "path": "edna-overview.html",
-      "size": 4095,
-      "sha256": "e8d52cb640d45d798b126a664cc46a9948eb8ae11925b6a94efde8b89ad81f63"
+      "size": 4096,
+      "sha256": "ea01cc27c9e617b584bc9094e71feb46d65c8bee470646f569e06b2ac9146512"
     },
     {
       "path": "hobbly-case-study.html",
-      "size": 13758,
-      "sha256": "bfacaa8ba122e664c4f6dbf3d8246443bb0f53c9a2e0056ea57859a65909073c"
+      "size": 13681,
+      "sha256": "82fc43e0890b896ec6ea7a9c7194f94920c82c005d66cd45fe4647bc70e6691f"
     },
     {
       "path": "hobbly-overview.html",
-      "size": 4127,
-      "sha256": "1fe2afc845ade64d5aa435b7cbac6730b194d339642fea25233f7b82cdd3fe8f"
+      "size": 4033,
+      "sha256": "24ff09550ae6cf380ba0ab0fa24541c40d3e8dc6fc70274de0cfc966e0c7668a"
     },
     {
       "path": "index.html",
@@ -123,18 +83,18 @@
     },
     {
       "path": "profile-ai-data-product.html",
-      "size": 4089,
-      "sha256": "53d8e2dd7bf7b88062116fbe28ff79235bcebc5bf094d6eddfb0bcfe366ea66a"
+      "size": 4140,
+      "sha256": "6ccfe1a6fa44acd04696edfdae0e5eb448157d6544dbd10f6815424ab14bbdcb"
     },
     {
       "path": "profile-master.html",
-      "size": 4616,
-      "sha256": "f463a667209c055ddde67f9c223cd1ba6f673c2a5b37c13abbf05ac9c12c02fd"
+      "size": 4689,
+      "sha256": "06d8c01d468c71b526c05bc0c8a1337dba05f9a4b2f02ba886f9f9b85173f6c2"
     },
     {
       "path": "profile-private-capital.html",
-      "size": 4111,
-      "sha256": "950bfaef54aa8a4df896230042335e220cf5ae61ec3e4dbe2bf6c121a5e94282"
+      "size": 4175,
+      "sha256": "674c9d2ea9064ae534e4033d47e22897ca06bb54e0fa1dbb1275c089e71e351b"
     },
     {
       "path": "profile-quant-risk.html",
