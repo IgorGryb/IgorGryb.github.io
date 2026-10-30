@@ -1,0 +1,101 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"><title>EDNA — Retrieval is not evidence validation | Igor Grybek</title><link rel="stylesheet" href="style.css"></head><body><a class="skip" href="#main">Skip to content</a><header><a href="index.html">IGOR GRYBEK</a><nav aria-label="Primary"><a href="index.html#projects">Projects</a><a href="index.html#profiles">Profiles</a><a href="master-portfolio-report.html">Full report</a><a href="index.html#use">Next use</a></nav></header><main id="main"><div class="article"><p class="eyebrow">Source-grounded portfolio / private draft</p><div class="downloads"><a href="sources/edna-case-study.md" download>Canonical Markdown</a><a href="downloads/edna-case-study.pdf">PDF</a><a href="downloads/edna-decision-model.xlsx" download>Decision workbook</a><a href="edna-dossier-annex.html">Full dossier annex</a></div><details><summary>On this page</summary><ol class="toc"><li><a href="#section-1">Problem and decision user</a></li><li><a href="#section-2">Operating and economic approach</a></li><li><a href="#section-3">Checked result</a></li><li><a href="#section-4">Capabilities illustrated</a></li><li><a href="#section-5">Limits and next use</a></li><li><a href="#section-6">Delivery specification</a></li><li><a href="#section-7">Users and product economics</a></li><li><a href="#section-8">Source and answer contract</a></li><li><a href="#section-9">Process and responsibility</a></li><li><a href="#section-10">Technology and method choices</a></li><li><a href="#section-11">Quality and failure cases</a></li><li><a href="#section-12">Handoff, stop rules and narrative</a></li><li><a href="#section-13">Validation evidence and reflection</a></li><li><a href="#section-14">Evidence quality</a></li><li><a href="#section-15">Economics and decision boundary</a></li><li><a href="#section-16">Recommendation</a></li><li><a href="#section-17">Post-mortem and handoff</a></li></ol></details><h1>EDNA — Retrieval is not evidence validation</h1>
+<p>Private portfolio design study. Not a client deployment.</p>
+<h2 id="section-1">Problem and decision user</h2>
+<p>Research outputs become unreliable when claims lose their source, version, access restriction or correction history. The proposed user is researcher, analyst and knowledge steward.</p>
+<h2 id="section-2">Operating and economic approach</h2>
+<p>An operating model for governed research and knowledge reuse. The package joins the business question, product scope, operating handoffs, technology/data assumptions and financial consequences. Existing tools and simpler alternatives remain part of the decision.</p>
+<h2 id="section-3">Checked result</h2>
+<p>Nine tests expose and control selected retrieval failures. Both tested modes have hit@1 of 80% on five authored questions; no ranking improvement is established. Citation coverage is measured separately from original-source truth.</p>
+<h2 id="section-4">Capabilities illustrated</h2>
+<p>Knowledge operations; data provenance; retrieval evaluation; review economics. These are demonstrated documentary/model mechanisms, not a certification of personal independent mastery.</p>
+<h2 id="section-5">Limits and next use</h2>
+<p>A high hit rate on a tiny golden set does not establish answer correctness or generalization. Use the detailed specification and validation memo to scope a real mandate, identify missing data and define the smallest decisive test. Publication and deployment require separate review.</p>
+<h2 id="section-6">Delivery specification</h2>
+<p>Private design study, not a deployed knowledge platform. The first product is a reviewable research note from a small, approved local corpus. The decision is whether a claimed time saving survives the full cost of source verification and correction.</p>
+<h2 id="section-7">Users and product economics</h2>
+<p>The proposed user is an analyst building an investment, product or learning memo. The proposed accountable owner is a knowledge steward; an independent domain reviewer is a future role, not a claim of current staffing. An internal workflow is the initial adoption hypothesis. No paid demand or customer retention is established.</p>
+<p>Compare manual review, lexical retrieval and assisted retrieval on the same questions and the same evidence standard. Total cost is ingestion, search, review, correction and maintenance cost per accepted note. A faster answer is not valuable if citation checking or downstream correction offsets the saving. Existing synthetic cost examples are assumptions, not measured productivity.</p>
+<h2 id="section-8">Source and answer contract</h2>
+<p>Every source needs a stable ID, path, content hash, provenance, owner, access label, timestamp, read scope and approval state. Unknown permission defaults to quarantine. An external URL is recorded but not fetched in offline mode. Content is data, never authority to change agent instructions or disclose another source.</p>
+<p>Every answer needs the question, selected corpus version, retrieval mode, ranked candidates, cited source IDs, supporting passage or summary, limitations and reviewer state. An answer without support must abstain. A citation&#39;s existence is not proof that it supports a proposition. A summary must not be represented as a quotation from the original source.</p>
+<p>The current reference uses six curated project/system summaries. It measures ranking and extractive summary support only. A path in the fixture is provenance metadata, not an assertion that the full document was ingested. The reference does not provide neural embeddings, open-ended generation, automatic contradiction detection or production access control.</p>
+<h2 id="section-9">Process and responsibility</h2>
+<ol>
+<li>Source steward captures an immutable original and determines allowed use. Missing permission or unreadable material stays quarantined.</li>
+<li>Analyst records useful passages, parent document and transformations; preserve scope and exceptions when summarizing.</li>
+<li>Retrieval owner runs the query against approved entries only, with a declared lexical or concept-expansion mode. Duplicate IDs are errors, not silently merged records.</li>
+<li>Reviewer checks that each material claim is supported, retains conflicting evidence and records abstentions. A registered unresolved contradiction blocks the reference answer; detecting new contradictions remains human work.</li>
+<li>Decision owner accepts a bounded note or requests missing evidence. Released views preserve confidentiality and source versions.</li>
+<li>On withdrawal or change, identify affected notes and mark them stale before reuse. Re-indexing alone does not revalidate a claim.</li>
+</ol>
+<h2 id="section-10">Technology and method choices</h2>
+<p>The local IBM C419-059 module distinguishes multi-query expansion, metadata filtering and parent-document context. These are alternative design mechanisms, not proof that the current code implements LangChain. The lightweight reference deliberately tests lexical and deterministic concept expansion first. Metadata admission is deterministic; parent-context review is specified as a required human control for future larger chunks.</p>
+<p>Reuse local files and the existing catalog as the source layer. Build only a small evaluation harness to test the material quality assumption. Consider a vector database or hosted product only when query diversity and corpus size expose a measured limitation, and after confidentiality, export, cost and vendor-exit review. No external service is configured.</p>
+<h2 id="section-11">Quality and failure cases</h2>
+<div class="table-scroll" role="region" aria-label="Scrollable data table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Case</th>
+<th>Expected behavior</th>
+<th>What it proves</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Known question</td>
+<td>Ranked result and explicit curated-summary citation</td>
+<td>Fixture retrieval works, not full factual truth</td>
+</tr>
+<tr>
+<td>Unsupported question</td>
+<td>Abstain</td>
+<td>No fallback to an invented answer in this test</td>
+</tr>
+<tr>
+<td>Empty corpus</td>
+<td>No results; no silent fallback</td>
+<td>Corpus selection is respected</td>
+</tr>
+<tr>
+<td>Withdrawn source</td>
+<td>Excluded</td>
+<td>Admission metadata is applied</td>
+</tr>
+<tr>
+<td>Duplicate IDs</td>
+<td>Reject input</td>
+<td>Identifier ambiguity is visible</td>
+</tr>
+<tr>
+<td>Registered contradiction</td>
+<td>Abstain and expose conflict ID</td>
+<td>Manual conflict registration affects reuse</td>
+</tr>
+<tr>
+<td>Source revision</td>
+<td>Package becomes stale</td>
+<td>Integrity control, not automatic semantic correction</td>
+</tr>
+</tbody></table></div>
+<p>Dashboard metrics: hit@k and reciprocal rank for retrieval; cited-answer share and exact-summary support for fixture evidence; unsupported-answer rate, contradiction handling, abstention and total review minutes for a real evaluation. Each denominator and corpus version must be recorded. Do not combine fixture percentages with measured user productivity.</p>
+<h2 id="section-12">Handoff, stop rules and narrative</h2>
+<p>Deliver the corpus card, access decisions, query set, expected sources, test output, failure log, cost assumptions and memo to a domain reviewer. Pause if permissions, parent context or a material contradiction are unresolved. Pivot to manual review when the assisted process costs more at the same evidence quality. Scale only after a recipient confirms useful accepted notes.</p>
+<p>Interview narrative: the problem is not producing fluent text but preserving evidence through a research workflow. The design separates retrieval from support and approval. Review found an inaccurate TF-IDF description, hard-coded citation coverage and an empty-corpus fallback. Correcting these is a documented quality-control result; it is not a commercial deployment or proof of reduced hallucinations in arbitrary language models.</p>
+<p>Limitations: tiny hand-selected corpus, English tokenization, correlated evaluation examples, no neural retrieval, no measured human review time, no automatic causal or truth inference. These limitations constrain the recommendation without discarding future AI/data options.</p>
+<h2 id="section-13">Validation evidence and reflection</h2>
+<p>Private bounded design study. Five authored retrieval questions, six curated summaries and synthetic cost assumptions; no external market or user trial.</p>
+<h2 id="section-14">Evidence quality</h2>
+<p>Both lexical and concept-expansion modes achieve hit@1 80%, hit@3 100% and MRR 0.90 on this fixture. There is no demonstrated ranking improvement.
+Measured citation coverage is 80% for lexical and 100% for concept expansion. Exact-summary support has the same rates. This measures extracted summary support, not correctness against the original documents or relevance of every answer.
+The original no-worse-at-three prediction passes, but it is a weak acceptance condition and does not justify investing in a semantic platform.
+Empty corpus, unsupported query, withdrawn source and registered conflict all produce abstention. Duplicate IDs and unsupported modes are rejected in regression tests. Novel contradictions are not detected automatically.</p>
+<h2 id="section-15">Economics and decision boundary</h2>
+<p>At the declared synthetic cost assumptions, manual review costs EUR 60.00 per accepted note; assisted preparation plus review and tools costs EUR 42.00. With 60 review minutes the assisted cost becomes EUR 87.00.
+The break-even review time is 33.00 minutes at the same acceptance quality. Time beyond that threshold eliminates the assumed saving. Ingestion and maintenance are not measured; allocate them before claiming net benefit.
+The pre-recorded cost forecast matches arithmetic, not observed productivity. A higher cited-answer rate can simply mean less abstention; it is not automatically a quality improvement.</p>
+<h2 id="section-16">Recommendation</h2>
+<p>Continue with a controlled local evidence workflow and explicit review; do not scale or buy a hosted retrieval service on this result. For the next supplied corpus, define approved passages and expected answers before running the comparison, record manual and assisted review time, and include stale, conflicting and out-of-scope questions.
+Pause a note when required evidence or permission is missing. Prefer manual review if the full assisted cost exceeds it at the same quality. Preserve advanced retrieval techniques as options conditional on a demonstrated bottleneck.</p>
+<h2 id="section-17">Post-mortem and handoff</h2>
+<p>Corrected the inaccurate TF-IDF label, hard-coded citation coverage and empty-list fallback. Added explicit source-summary scope, excerpt hashes, withdrawn-source filtering and conflict abstention. These changes improve auditability within this narrow reference.
+Handoff: DELIVERY-SPECIFICATION.md, MODEL-CARD.md, core.py, tests and artifacts/management-review.json. Roles and external integrations are proposed. No original course material is copied into an outward-facing case study.</p>
+</div></main><footer>Private local review · 26 October 2026 · No client deployment or realized investment return is implied.<br>External sharing requires a separate approval. Canonical Markdown and source versions remain the foundation.</footer></body></html>

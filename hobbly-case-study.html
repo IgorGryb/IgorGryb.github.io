@@ -1,0 +1,102 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"><title>Hobbly — Exceptions determine the operating model | Igor Grybek</title><link rel="stylesheet" href="style.css"></head><body><a class="skip" href="#main">Skip to content</a><header><a href="index.html">IGOR GRYBEK</a><nav aria-label="Primary"><a href="index.html#projects">Projects</a><a href="index.html#profiles">Profiles</a><a href="master-portfolio-report.html">Full report</a><a href="index.html#use">Next use</a></nav></header><main id="main"><div class="article"><p class="eyebrow">Source-grounded portfolio / private draft</p><div class="downloads"><a href="sources/hobbly-case-study.md" download>Canonical Markdown</a><a href="downloads/hobbly-case-study.pdf">PDF</a><a href="downloads/hobbly-decision-model.xlsx" download>Decision workbook</a><a href="hobbly-dossier-annex.html">Full dossier annex</a></div><details><summary>On this page</summary><ol class="toc"><li><a href="#section-1">Problem and decision user</a></li><li><a href="#section-2">Operating and economic approach</a></li><li><a href="#section-3">Checked result</a></li><li><a href="#section-4">Capabilities illustrated</a></li><li><a href="#section-5">Limits and next use</a></li><li><a href="#section-6">Delivery specification</a></li><li><a href="#section-7">Business and product model</a></li><li><a href="#section-8">State and responsibility contract</a></li><li><a href="#section-9">Reconciliation and exception handling</a></li><li><a href="#section-10">Data and technology design</a></li><li><a href="#section-11">Dashboard and management decisions</a></li><li><a href="#section-12">Risks, validation and handoff</a></li><li><a href="#section-13">Validation evidence and reflection</a></li><li><a href="#section-14">Result</a></li><li><a href="#section-15">Decision</a></li><li><a href="#section-16">Post-mortem</a></li></ol></details><h1>Hobbly — Exceptions determine the operating model</h1>
+<p>Private portfolio design study. Not a client deployment.</p>
+<h2 id="section-1">Problem and decision user</h2>
+<p>A reservation is not operationally complete until capacity, payment, cancellation and settlement states agree. The proposed user is activity organizer and customer.</p>
+<h2 id="section-2">Operating and economic approach</h2>
+<p>A booking-service operating model with explicit transaction economics and exception ownership. The package joins the business question, product scope, operating handoffs, technology/data assumptions and financial consequences. Existing tools and simpler alternatives remain part of the decision.</p>
+<h2 id="section-3">Checked result</h2>
+<p>Eight tests cover selected booking/payment states, conflicting request keys, cancellation, full refund and reconciliation. Synthetic contribution changes from EUR 2 to EUR -0.50 per booking when support cost rises.</p>
+<h2 id="section-4">Capabilities illustrated</h2>
+<p>Product definition; transaction operations; exception ownership; unit economics. These are demonstrated documentary/model mechanisms, not a certification of personal independent mastery.</p>
+<h2 id="section-5">Limits and next use</h2>
+<p>Synthetic payment state tests do not establish provider integration, fraud prevention or legal compliance. Use the detailed specification and validation memo to scope a real mandate, identify missing data and define the smallest decisive test. Publication and deployment require separate review.</p>
+<h2 id="section-6">Delivery specification</h2>
+<p>Private design study. The product hypothesis is a booking service that connects organizers and customers while making exceptions, payment states and service costs visible. No live payment integration, customer base or regulatory authorization is claimed.</p>
+<h2 id="section-7">Business and product model</h2>
+<p>Organizer: publishes an offering, price and capacity, confirms service delivery and handles organizer-side cancellation. Customer: selects availability, books, pays and requests support or cancellation. Platform operations: reconciles states and exceptions. A payment provider would execute money movement under a separately agreed commercial and compliance model. Platform custody of funds is not assumed.</p>
+<p>Potential revenue is a fee or take rate, not gross booking value. The reference economic case uses a synthetic EUR 50 booking and 10% take rate, giving EUR 5 platform revenue. Deduct EUR 1 payment cost, EUR 1.50 support and EUR 0.50 expected loss: EUR 2 contribution before fixed costs and tax. At EUR 4 support cost the contribution becomes EUR -0.50. These are assumptions, not observed transactions or a pricing recommendation.</p>
+<p>Alternatives: manual scheduling plus an existing payment link; an existing booking product; a custom integrated service. Begin with the simplest approach that meets capacity, cancellation and reconciliation requirements. A new platform is justified only when differentiation and net economics survive a real operational comparison.</p>
+<h2 id="section-8">State and responsibility contract</h2>
+<div class="table-scroll" role="region" aria-label="Scrollable data table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Required state/control</th>
+<th>Result</th>
+<th>Proposed owner</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Publish listing</td>
+<td>Integer minor-unit price, positive capacity, organizer mandate</td>
+<td>Bookable offering</td>
+<td>Organizer</td>
+</tr>
+<tr>
+<td>Reserve</td>
+<td>Listing exists; capacity available</td>
+<td>Pending payment, slot held</td>
+<td>Booking service</td>
+</tr>
+<tr>
+<td>Capture</td>
+<td>Pending payment; unique request key</td>
+<td>Confirmed booking and captured amount</td>
+<td>Payment orchestration</td>
+</tr>
+<tr>
+<td>Payment failure</td>
+<td>Valid simulated failure outcome</td>
+<td>Payment failed; hold remains until cancelled</td>
+<td>Support/operations</td>
+</tr>
+<tr>
+<td>Cancel</td>
+<td>Pending, failed or confirmed booking</td>
+<td>Cancelled; capacity released</td>
+<td>Authorized service operator</td>
+</tr>
+<tr>
+<td>Full refund</td>
+<td>Cancelled booking with captured payment</td>
+<td>One refund of captured amount</td>
+<td>Payment operations</td>
+</tr>
+<tr>
+<td>Replay request</td>
+<td>Same key, same booking and outcome</td>
+<td>Same result; no second capture/refund</td>
+<td>Payment orchestration</td>
+</tr>
+<tr>
+<td>Conflicting key</td>
+<td>Different booking/outcome</td>
+<td>Reject; investigate</td>
+<td>Operations</td>
+</tr>
+</tbody></table></div>
+<p>The reference has no hold timeout, customer authentication, partial refund, retry-after-failure workflow, authorization/capture split, settlement schedule or chargeback process. Those are specified next-design decisions, not silently implied functions. Production roles must enforce access rights; named owners here are proposed functions.</p>
+<h2 id="section-9">Reconciliation and exception handling</h2>
+<p>Keep booking, payment, refund and settlement records separate. Gross captured less gross refunded is a payment-flow measure, not revenue or profit. Reconcile provider events to internal request IDs, amounts, currency and state; unresolved differences remain an exception queue with owner and timestamp. Never mark a refund paid solely because an internal request was accepted.</p>
+<p>The local reference simulates capture and full refund and checks their aggregate identity. It does not reconcile a real provider statement. Concurrent requests require transactional reservation, unique event processing and race-condition tests before operational use. A support agent must not manufacture a successful payment state to resolve a customer complaint.</p>
+<h2 id="section-10">Data and technology design</h2>
+<p>Listing: ID, organizer, product terms, slot/capacity, price in minor units, currency and cancellation version. Booking: ID, customer reference, listing/slot, immutable accepted terms, timestamps and status. Payment event: provider event ID, request key, booking, amount, currency, status and audit time. Refund: original payment reference, authorized reason and amount. Avoid storing card credentials; use a suitable provider boundary after separate review.</p>
+<p>The current reference stores a deliberately smaller synthetic subset in SQLite. Currency is a fixed demonstration assumption rather than a multi-currency field. Local documentation is canonical; UI, workflow board and dashboard are controlled views. Build/buy review must include transaction fees, refund treatment, payout schedule, support cost, integration effort and vendor exit—not only developer effort.</p>
+<h2 id="section-11">Dashboard and management decisions</h2>
+<p>Show booked versus fulfilled volume separately; capture/refund/reconciliation amounts separately; contribution per completed booking with support and expected-loss assumptions; unresolved exception age and owner; failed-payment and refund rates with denominators. Missing settlement data means unknown, not zero. Refresh on new events or revised assumptions, and retain prior snapshots.</p>
+<p>At the synthetic base assumptions support cost must stay below EUR 3.50 per booking for positive contribution before fixed costs. This is an arithmetic boundary, not proof that it is operationally achievable. The simpler alternative may win after acquisition, organizer onboarding, disputes and fixed costs are included.</p>
+<h2 id="section-12">Risks, validation and handoff</h2>
+<p>Material risks: overselling under concurrency; duplicated or misattributed payment requests; cancellation/refund disagreement; uncosted support; mistaken revenue recognition; access/privacy failures. Controls: atomic inventory reservation, request fingerprinting, provider reconciliation, exception ownership and source-backed metrics. The small reference validates only selected sequential state transitions and arithmetic.</p>
+<p>Handoff includes the state table, API/event contracts, refund policy decisions, synthetic tests, economic assumptions and a list of unimplemented controls. Pause deployment until the payment/compliance boundary and operational ownership are approved by suitable specialists. This is not a statement of compliance with any jurisdiction&#39;s current law.</p>
+<p>Interview narrative: connect product economics to the exceptions a service must actually operate. The review found cross-booking idempotency risk and missing refund/reconciliation coverage. The corrected reference demonstrates those controls locally. It does not demonstrate a production marketplace, revenue or customer adoption.</p>
+<h2 id="section-13">Validation evidence and reflection</h2>
+<p>Private synthetic study. Eight repository tests cover capacity, key replay/conflict, valid states, cancellation, refund, amount reconciliation and invalid inputs.</p>
+<h2 id="section-14">Result</h2>
+<p>One capture of 5000 cents and one full refund of 5000 cents reconcile to zero net payment flow. Replay produces no second financial event. Cross-booking key reuse is rejected. Cancellation releases the local slot. This is a sequential local reference, not provider settlement.</p>
+<p>At the separately declared economic scenario, platform contribution is EUR 2.00 per completed booking and EUR -0.50 when support cost rises. The break-even support cost is EUR 3.50, before fixed costs and tax. Gross booking value is not platform revenue. The pre-recorded cost forecast matches the arithmetic.</p>
+<h2 id="section-15">Decision</h2>
+<p>Continue documenting the service and compare a manual/existing-product baseline. Do not deploy a payment service from this reference. Confirm cancellation terms, support workload, refund fees, settlement rules and access responsibilities before implementation. A favorable unit contribution does not establish total profitability.</p>
+<h2 id="section-16">Post-mortem</h2>
+<p>The earlier implementation replayed a key without checking the booking identity and treated any unknown outcome as failure. Both now reject ambiguous input. Full-refund reconciliation was absent and is now demonstrated. Authorization/capture, concurrency, partial refunds and chargebacks remain explicit gaps; no claim of production safety is made.</p>
+<p>Source and handoff: DELIVERY-SPECIFICATION.md, MODEL-CARD.md, the local reference tests and artifacts/management-review.json. The historical technical demo uses a different synthetic pricing scenario; do not combine its numbers with this management scenario.</p>
+</div></main><footer>Private local review · 26 October 2026 · No client deployment or realized investment return is implied.<br>External sharing requires a separate approval. Canonical Markdown and source versions remain the foundation.</footer></body></html>
