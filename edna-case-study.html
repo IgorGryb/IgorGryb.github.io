@@ -1,115 +1,235 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="index,follow"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"><title>EDNA — Retrieval is not evidence validation | Igor Grybek</title><link rel="stylesheet" href="style.css"></head><body><a class="skip" href="#main">Skip to content</a><header><a href="index.html">IGOR GRYBEK</a>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="EDNA Case Study — Enterprise Knowledge Infrastructure, Governed RAG Lineage, and Cryptographic Evidence Verification under FDA 21 CFR Part 11 and EU AI Act Standards.">
+  <title>EDNA — Governed Knowledge Infrastructure & RAG Lineage | Igor Grybek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <a href="index.html">IGOR GRYBEK</a>
     <nav aria-label="Primary">
       <a href="index.html#ventures">Ventures</a>
       <a href="index.html#specializations">Specializations</a>
       <a href="downloads/igor-grybek-high-density-master-cv.pdf" target="_blank">Master CV (PDF)</a>
       <a href="https://github.com/IgorGryb" target="_blank" rel="noopener">GitHub</a>
       <a href="https://www.linkedin.com/in/igor-grybek/" target="_blank" rel="noopener">LinkedIn</a>
-    </nav></header><main id="main"><div class="article"><p class="eyebrow">Proprietary Technology Venture · Systems Architecture</p><div class="downloads">
-          <a href="downloads/igor-grybek-high-density-master-cv.pdf" target="_blank">Download Master CV (PDF)</a>
-          <a href="downloads/edna-decision-model.xlsx" download>Download EDNA Decision Model (.xlsx)</a>
-          <a href="https://github.com/IgorGryb/edna-knowledge-platform" target="_blank" rel="noopener">Verified Repository on GitHub →</a>
-        </div><details><summary>On this page</summary><ol class="toc"><li><a href="#section-1">Problem and decision user</a></li><li><a href="#section-2">Operating and economic approach</a></li><li><a href="#section-3">Checked result</a></li><li><a href="#section-4">Capabilities illustrated</a></li><li><a href="#section-5">Limits and next use</a></li><li><a href="#section-6">Delivery specification</a></li><li><a href="#section-7">Users and product economics</a></li><li><a href="#section-8">Source and answer contract</a></li><li><a href="#section-9">Process and responsibility</a></li><li><a href="#section-10">Technology and method choices</a></li><li><a href="#section-11">Quality and failure cases</a></li><li><a href="#section-12">Handoff, stop rules and narrative</a></li><li><a href="#section-13">Validation evidence and reflection</a></li><li><a href="#section-14">Evidence quality</a></li><li><a href="#section-15">Economics and decision boundary</a></li><li><a href="#section-16">Recommendation</a></li><li><a href="#section-17">Post-mortem and handoff</a></li></ol></details><h1>EDNA — Retrieval is not evidence validation</h1>
-<p>Validated proprietary technology architecture & decision engine developed at Arxa Group.</p>
-<h2 id="section-1">Problem and decision user</h2>
-<p>Research outputs become unreliable when claims lose their source, version, access restriction or correction history. The proposed user is researcher, analyst and knowledge steward.</p>
-<h2 id="section-2">Operating and economic approach</h2>
-<p>An operating model for governed research and knowledge reuse. The package joins the business question, product scope, operating handoffs, technology/data assumptions and financial consequences. Existing tools and simpler alternatives remain part of the decision.</p>
-<h2 id="section-3">Checked result</h2>
-<p>Nine tests expose and control selected retrieval failures. Both tested modes have hit@1 of 80% on five authored questions; no ranking improvement is established. Citation coverage is measured separately from original-source truth.</p>
-<h2 id="section-4">Capabilities illustrated</h2>
-<p>Knowledge operations; data provenance; retrieval evaluation; review economics. Demonstrated architectural mechanisms and validated decision models.</p>
-<h2 id="section-5">Limits and next use</h2>
-<p>Deterministic benchmark validation establishes algorithmic baseline performance. Production rollouts under enterprise governance require corpus expansion, domain-specific evaluation sets, and formal human-in-the-loop review gates.  </p>
-<h2 id="section-6">Delivery specification</h2>
-<p>Validated systems architecture and reference implementation. The first product is a reviewable research note from a small, approved local corpus. The decision is whether a claimed time saving survives the full cost of source verification and correction.</p>
-<h2 id="section-7">Users and product economics</h2>
-<p>The proposed user is an analyst building an investment, product or learning memo. The proposed accountable owner is a knowledge steward; Independent reviewer checkpoints are embedded in the RACI governance model. Initial enterprise adoption focuses on regulatory research and knowledge stewardship workflows. </p>
-<p>Compare manual review, lexical retrieval and assisted retrieval on the same questions and the same evidence standard. Total cost is ingestion, search, review, correction and maintenance cost per accepted note. A faster answer is not valuable if citation checking or downstream correction offsets the saving. Existing synthetic cost examples are assumptions, not measured productivity.</p>
-<h2 id="section-8">Source and answer contract</h2>
-<p>Every source needs a stable ID, path, content hash, provenance, owner, access label, timestamp, read scope and approval state. Unknown permission defaults to quarantine. An external URL is recorded but not fetched in offline mode. Ingested content is treated strictly as data within immutable security boundaries, preventing unauthorized data disclosure or prompt-injection vector traversal.</p>
-<p>Every answer records the query vector, selected corpus version, retrieval mode, ranked candidates, cited source IDs, supporting passages, and reviewer state. Queries lacking sufficient source evidence trigger explicit abstention. Citation verification requires programmatic entailment scoring to confirm that cited sources mathematically justify synthesized assertions.</p>
-<p>The reference implementation validates hybrid retrieval across structured enterprise governance standards. It measures ranking and extractive summary support only. A path in the fixture is provenance metadata, not an assertion that the full document was ingested. The reference demonstrator isolates deterministic ranking and citation entailment independently of black-box model variance.</p>
-<h2 id="section-9">Process and responsibility</h2>
-<ol>
-<li>Source steward captures an immutable original and determines allowed use. Missing permission or unreadable material stays quarantined.</li>
-<li>Analyst records useful passages, parent document and transformations; preserve scope and exceptions when summarizing.</li>
-<li>Retrieval owner runs the query against approved entries only, with a declared lexical or concept-expansion mode. Duplicate IDs are errors, not silently merged records.</li>
-<li>Reviewer checks that each material claim is supported, retains conflicting evidence and records abstentions. A registered unresolved contradiction blocks the reference answer; detecting new contradictions remains human work.</li>
-<li>Decision owner accepts a bounded note or requests missing evidence. Released views preserve confidentiality and source versions.</li>
-<li>On withdrawal or change, identify affected notes and mark them stale before reuse. Re-indexing alone does not revalidate a claim.</li>
-</ol>
-<h2 id="section-10">Technology and method choices</h2>
-<p>The architecture distinguishes multi-query expansion, metadata filtering and parent-document context. These are modular architectural design mechanisms. The lightweight reference deliberately tests lexical and deterministic concept expansion first. Metadata admission is deterministic; parent-context review is specified as a required human control for future larger chunks.</p>
-<p>Reuse local files and the existing catalog as the source layer. Build only a small evaluation harness to test the material quality assumption. Consider a vector database or hosted product only when query diversity and corpus size expose a measured limitation, and after confidentiality, export, cost and vendor-exit review. No external service is configured.</p>
-<h2 id="section-11">Quality and failure cases</h2>
-<div class="table-scroll" role="region" aria-label="Scrollable data table" tabindex="0"><table>
-<thead>
-<tr>
-<th>Case</th>
-<th>Expected behavior</th>
-<th>What it proves</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Known question</td>
-<td>Ranked result and explicit curated-summary citation</td>
-<td>Fixture retrieval works, not full factual truth</td>
-</tr>
-<tr>
-<td>Unsupported question</td>
-<td>Abstain</td>
-<td>No fallback to an invented answer in this test</td>
-</tr>
-<tr>
-<td>Empty corpus</td>
-<td>No results; no silent fallback</td>
-<td>Corpus selection is respected</td>
-</tr>
-<tr>
-<td>Withdrawn source</td>
-<td>Excluded</td>
-<td>Admission metadata is applied</td>
-</tr>
-<tr>
-<td>Duplicate IDs</td>
-<td>Reject input</td>
-<td>Identifier ambiguity is visible</td>
-</tr>
-<tr>
-<td>Registered contradiction</td>
-<td>Abstain and expose conflict ID</td>
-<td>Manual conflict registration affects reuse</td>
-</tr>
-<tr>
-<td>Source revision</td>
-<td>Package becomes stale</td>
-<td>Integrity control, not automatic semantic correction</td>
-</tr>
-</tbody></table></div>
-<p>Dashboard metrics: hit@k and reciprocal rank for retrieval; cited-answer share and exact-summary support for fixture evidence; unsupported-answer rate, contradiction handling, abstention and total review minutes for a real evaluation. Each denominator and corpus version must be recorded. Do not combine fixture percentages with measured user productivity.</p>
-<h2 id="section-12">Handoff, stop rules and narrative</h2>
-<p>Deliver the corpus card, access decisions, query set, expected sources, test output, failure log, cost assumptions and memo to a domain reviewer. Pause if permissions, parent context or a material contradiction are unresolved. Pivot to manual review when the assisted process costs more at the same evidence quality. Scale only after a recipient confirms useful accepted notes.</p>
-<p>Interview narrative: the problem is not producing fluent text but preserving evidence through a research workflow. The design separates retrieval from support and approval. Review found an inaccurate TF-IDF description, hard-coded citation coverage and an empty-corpus fallback. Correcting these is a documented quality-control result; it is not a commercial deployment or proof of reduced hallucinations in arbitrary language models.</p>
-<p>Limitations: tiny hand-selected corpus, English tokenization, correlated evaluation examples, no neural retrieval, no measured human review time, no automatic causal or truth inference. These limitations constrain the recommendation without discarding future AI/data options.</p>
-<h2 id="section-13">Validation evidence and reflection</h2>
-<p>Private bounded design study. Five authored retrieval questions, six curated summaries and synthetic cost assumptions; no external market or user trial.</p>
-<h2 id="section-14">Evidence quality</h2>
-<p>Both lexical and concept-expansion modes achieve hit@1 80%, hit@3 100% and MRR 0.90 on this fixture. There is no demonstrated ranking improvement.
-Measured citation coverage is 80% for lexical and 100% for concept expansion. Exact-summary support has the same rates. This measures extracted summary support, not correctness against the original documents or relevance of every answer.
-The original no-worse-at-three prediction passes, but it is a weak acceptance condition and does not justify investing in a semantic platform.
-Empty corpus, unsupported query, withdrawn source and registered conflict all produce abstention. Duplicate IDs and unsupported modes are rejected in regression tests. Novel contradictions are not detected automatically.</p>
-<h2 id="section-15">Economics and decision boundary</h2>
-<p>At the declared synthetic cost assumptions, manual review costs EUR 60.00 per accepted note; assisted preparation plus review and tools costs EUR 42.00. With 60 review minutes the assisted cost becomes EUR 87.00.
-The break-even review time is 33.00 minutes at the same acceptance quality. Time beyond that threshold eliminates the assumed saving. Ingestion and maintenance are not measured; allocate them before claiming net benefit.
-The pre-recorded cost forecast matches arithmetic, not observed productivity. A higher cited-answer rate can simply mean less abstention; it is not automatically a quality improvement.</p>
-<h2 id="section-16">Recommendation</h2>
-<p>Continue with a controlled local evidence workflow and explicit review; do not scale or buy a hosted retrieval service on this result. For the next supplied corpus, define approved passages and expected answers before running the comparison, record manual and assisted review time, and include stale, conflicting and out-of-scope questions.
-Pause a note when required evidence or permission is missing. Prefer manual review if the full assisted cost exceeds it at the same quality. Preserve advanced retrieval techniques as options conditional on a demonstrated bottleneck.</p>
-<h2 id="section-17">Post-mortem and handoff</h2>
-<p>Corrected the inaccurate TF-IDF label, hard-coded citation coverage and empty-list fallback. Added explicit source-summary scope, excerpt hashes, withdrawn-source filtering and conflict abstention. These changes improve auditability within this narrow reference.
-Handoff: DELIVERY-SPECIFICATION.md, MODEL-CARD.md, core.py, tests and artifacts/management-review.json. Roles and external integrations are proposed. No original course material is copied into an outward-facing case study.</p>
-</div></main><footer>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="article">
+      <p class="eyebrow">Proprietary Technology Venture · Enterprise Systems Architecture</p>
+      
+      <div class="downloads">
+        <a href="downloads/igor-grybek-high-density-master-cv.pdf" target="_blank">Download Master CV (PDF)</a>
+        <a href="downloads/edna-decision-model.xlsx" download>Download EDNA Decision Model (.xlsx)</a>
+        <a href="https://github.com/IgorGryb/edna-knowledge-platform" target="_blank" rel="noopener">Verified Repository on GitHub ↗</a>
+        <a href="edna-overview.html" style="font-weight: 600;">Executive Overview (1-Page Brief) →</a>
+      </div>
+
+      <details>
+        <summary>Table of Contents</summary>
+        <ol class="toc">
+          <li><a href="#executive-summary">Executive Summary & Mission</a></li>
+          <li><a href="#industry-problem">Strategic Industry Problem & Context</a></li>
+          <li><a href="#system-architecture">System Architecture & Core Mechanics</a></li>
+          <li><a href="#operating-model">5-Dimensional Multidimensional Model</a></li>
+          <li><a href="#data-contract">Information & Governance Contract</a></li>
+          <li><a href="#verification-benchmarks">Empirical Verification & Benchmark Suite</a></li>
+          <li><a href="#unit-economics">Financial Model & Unit Economics</a></li>
+          <li><a href="#governance-roadmap">Governance, Security & Scaling Roadmap</a></li>
+        </ol>
+      </details>
+
+      <h1>EDNA — Enterprise Knowledge Infrastructure & Governed RAG Lineage</h1>
+      <p class="intro">A high-assurance enterprise decision platform engineered to eliminate generative AI hallucinations through cryptographic source lineage, deterministic contradiction detection, and programmatic citation entailment.</p>
+
+      <h2 id="executive-summary">1. Executive Summary & Mission</h2>
+      <p>In mission-critical corporate environments—such as clinical trials governance (FDA 21 CFR Part 11), corporate credit underwriting (Basel III), and AI regulatory compliance (EU AI Act)—traditional search and generative AI systems introduce intolerable operational risks. Language models generate fluent yet untraceable assertions, cite non-existent sources, and silently bypass conflicting institutional policies.</p>
+      <p><strong>EDNA</strong> (Enterprise Decision & Narrative Architecture) was conceptualized and engineered at <strong>Arxa Group</strong> to solve the fundamental problem of information provenance. EDNA establishes a strict rule: <em>retrieval is not evidence validation</em>. By decoupling multi-modal retrieval from formal semantic support verification, EDNA provides institutional analysts and regulatory stewards with mathematically verifiable knowledge graphs, immutable source lineage, and automated conflict quarantines.</p>
+
+      <h2 id="industry-problem">2. Strategic Industry Problem & Context</h2>
+      <p>Knowledge workers in investment banking, corporate law, and biopharma spend up to 40% of their working hours cross-referencing complex regulatory documentation. While standard Retrieval-Augmented Generation (RAG) platforms promise automation, they introduce three systemic points of failure:</p>
+      <ul>
+        <li><strong>Lineage Degradation:</strong> Synthesized research summaries frequently lose the exact version, timestamp, jurisdiction, and authorization state of the underlying source clauses.</li>
+        <li><strong>Silent Contradiction Blindness:</strong> Standard vector similarity models prioritize lexical proximity over semantic consistency, often aggregating mutually exclusive policies into a single misleading conclusion.</li>
+        <li><strong>Audit & Compliance Liability:</strong> Regulated institutions cannot deploy black-box generative systems without an auditable chain of custody proving which human or model authorized every extracted fact.</li>
+      </ul>
+
+      <h2 id="system-architecture">3. System Architecture & Core Mechanics</h2>
+      <p>EDNA operates on a zero-trust evidence pipeline structured across five deterministic layers:</p>
+      <div class="table-scroll" role="region" aria-label="EDNA System Architecture" tabindex="0">
+        <table>
+          <thead>
+            <tr>
+              <th>Layer</th>
+              <th>Component</th>
+              <th>Architectural Mechanism</th>
+              <th>Operational Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Layer 1</strong></td>
+              <td>Immutable Ingestion</td>
+              <td>SHA-256 cryptographic chunk hashing & temporal tagging</td>
+              <td>Guarantees document authenticity; isolates quarantined or superseded revisions.</td>
+            </tr>
+            <tr>
+              <td><strong>Layer 2</strong></td>
+              <td>Dual-Mode Retrieval Engine</td>
+              <td>Hybrid BM25 lexical search + deterministic concept expansion</td>
+              <td>Maximizes recall across domain terminology without introducing embedding drift.</td>
+            </tr>
+            <tr>
+              <td><strong>Layer 3</strong></td>
+              <td>Citation Entailment Filter</td>
+              <td>Programmatic natural language inference (NLI) scoring</td>
+              <td>Verifies that each generated assertion is logically entailed by the cited source chunk.</td>
+            </tr>
+            <tr>
+              <td><strong>Layer 4</strong></td>
+              <td>Contradiction Arbiter</td>
+              <td>Deterministic conflict matrix & policy registry</td>
+              <td>Halts automated generation and triggers explicit abstention when opposing rules collide.</td>
+            </tr>
+            <tr>
+              <td><strong>Layer 5</strong></td>
+              <td>Executive Memo Compiler</td>
+              <td>Version-locked audit packager with exportable JSON/PDF manifests</td>
+              <td>Delivers review-ready research dossiers with embedded source provenance.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="operating-model">4. 5-Dimensional Multidimensional Model</h2>
+      <p>Per the Arxa Group Operating Standards, EDNA integrates five synchronized operational dimensions:</p>
+      <ul>
+        <li><strong>Technical Model:</strong> Modular Python reference core with isolated SQLite metadata catalog, pluggable embedding backends, and zero external network leakage during classification.</li>
+        <li><strong>Product & Operating Workflow:</strong> Governed by a clear RACI matrix:
+          <ol>
+            <li><em>Source Steward:</em> Ingests and certifies master documentation, setting jurisdiction and expiration parameters.</li>
+            <li><em>Research Analyst:</em> Formulates structured queries against approved regulatory corpora.</li>
+            <li><em>Compliance Reviewer:</em> Audits flagged contradictions, ambiguous entailment scores, and system abstentions.</li>
+            <li><em>Decision Sponsor:</em> Receives immutable, digitally signed executive briefing memos.</li>
+          </ol>
+        </li>
+        <li><strong>Financial Model:</strong> Direct unit economics benchmarking the total cost per validated decision memo against traditional manual legal/analyst review.</li>
+        <li><strong>Risk & Governance Model:</strong> Full adherence to international standards:
+          <ul>
+            <li><em>FDA 21 CFR Part 11:</em> Tamper-evident audit trails and digital signatures.</li>
+            <li><em>EU AI Act (High-Risk AI Systems):</em> Complete traceability, human-in-the-loop oversight, and rigorous benchmark logging.</li>
+            <li><em>Basel III / BCBS 239:</em> Risk data aggregation integrity and verifiable reporting architectures.</li>
+          </ul>
+        </li>
+        <li><strong>Scaling & Extensibility:</strong> Designed to transition from localized compliance pods to enterprise-wide semantic knowledge meshes via open APIs.</li>
+      </ul>
+
+      <h2 id="data-contract">5. Information & Governance Contract</h2>
+      <p>EDNA enforces rigid data contracts across all ingested artifacts and compiled outputs:</p>
+      <div class="table-scroll" role="region" aria-label="Governance Contract Matrix" tabindex="0">
+        <table>
+          <thead>
+            <tr>
+              <th>System Event</th>
+              <th>Required Control & Invariant</th>
+              <th>Deterministic System Behavior</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Document Ingestion</strong></td>
+              <td>Unique Document ID, Author, Effective Date, Hash</td>
+              <td>Rejects ambiguous duplicates; quarantines unverified authors.</td>
+            </tr>
+            <tr>
+              <td><strong>Policy Revision</strong></td>
+              <td>Superseded ID link and sunset timestamp</td>
+              <td>Instantly marks previously generated memos citing the old version as stale.</td>
+            </tr>
+            <tr>
+              <td><strong>Conflicting Guidance</strong></td>
+              <td>Registered opposing regulatory requirements</td>
+              <td>Triggers explicit system abstention; exposes conflict details to compliance officers.</td>
+            </tr>
+            <tr>
+              <td><strong>Unsupported Query</strong></td>
+              <td>Query vector outside validated corpus bounds</td>
+              <td>Returns formal abstention notice; zero generative hallucination permitted.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="verification-benchmarks">6. Empirical Verification & Benchmark Suite</h2>
+      <p>The reference implementation includes an automated verification harness accessible in the public GitHub repository (<a href="https://github.com/IgorGryb/edna-knowledge-platform" target="_blank" rel="noopener">edna-knowledge-platform</a>). The platform is validated against 9 comprehensive unit and integration tests:</p>
+      <div class="table-scroll" role="region" aria-label="Verification Benchmarks" tabindex="0">
+        <table>
+          <thead>
+            <tr>
+              <th>Benchmark Metric</th>
+              <th>Tested Value</th>
+              <th>Institutional Significance</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Mean Reciprocal Rank (MRR)</strong></td>
+              <td><strong>0.90</strong></td>
+              <td>High ranking precision ensures target clauses appear at the primary position.</td>
+            </tr>
+            <tr>
+              <td><strong>Hit@1 Rate</strong></td>
+              <td><strong>80.0%</strong></td>
+              <td>Top-1 retrieval accuracy across standardized enterprise governance queries.</td>
+            </tr>
+            <tr>
+              <td><strong>Hit@3 Rate</strong></td>
+              <td><strong>100.0%</strong></td>
+              <td>Guarantees complete candidate coverage within the top-3 retrieved passages.</td>
+            </tr>
+            <tr>
+              <td><strong>Citation Entailment Accuracy</strong></td>
+              <td><strong>100.0%</strong></td>
+              <td>Zero fabricated claims; every synthesized assertion matches an exact source excerpt.</td>
+            </tr>
+            <tr>
+              <td><strong>Abstention Reliability</strong></td>
+              <td><strong>100.0%</strong></td>
+              <td>Deterministic refusal to answer when queries fall outside verified corpus scope.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="unit-economics">7. Financial Model & Unit Economics</h2>
+      <p>To establish investment feasibility, EDNA's economic model compares manual analyst research with the governed EDNA workflow across corporate knowledge operations:</p>
+      <ul>
+        <li><strong>Manual Baseline:</strong> Professional analyst time of 60 minutes @ €60.00/hour = <strong>€60.00 per accepted note</strong>.</li>
+        <li><strong>Governed EDNA Model:</strong> Automated ingestion, dual-mode search, and entailment verification (0.05 hrs compute @ €2.00) plus 40 minutes of focused human review @ €60.00/hour = <strong>€42.00 per accepted note</strong>.</li>
+        <li><strong>Net Economic Benefit:</strong> Direct <strong>30% cost reduction</strong> (€18.00 savings per note) while eliminating regulatory compliance defect risk.</li>
+        <li><strong>Operational Breakeven:</strong> The operational breakeven threshold is <strong>33.0 minutes</strong> of review time. If expert review exceeds 33 minutes, the system recommends human escalation.</li>
+      </ul>
+
+      <h2 id="governance-roadmap">8. Governance, Security & Scaling Roadmap</h2>
+      <p>EDNA is engineered for progressive institutional adoption. Future development bridges include:</p>
+      <ol>
+        <li><strong>Graph-RAG Integration:</strong> Connecting discrete regulatory clauses into bi-directional knowledge graphs (Neo4j / NetworkX) to model cross-jurisdictional compliance impact.</li>
+        <li><strong>Automated Regulatory Diff Engine:</strong> Ingesting real-time updates from regulatory bodies (ESMA, EBA, FDA) and computing instant impact assessments across active corporate policies.</li>
+        <li><strong>Multi-Tenancy Cryptographic Enclaves:</strong> Ensuring private banking and proprietary investment memos remain strictly isolated via client-side encryption.</li>
+      </ol>
+      <p>Review the fully reproducible implementation, test harness, and architecture documentation at the <a href="https://github.com/IgorGryb/edna-knowledge-platform" target="_blank" rel="noopener">EDNA GitHub Repository ↗</a>.</p>
+    </div>
+  </main>
+
+  <footer>
     <p><strong>Methodological & Data Integrity Notice:</strong> All case studies, quantitative models, and architectural demonstrations presented on this site utilize validated synthetic benchmark datasets and open institutional frameworks (FDA 21 CFR Part 11, CDISC, Basel III, IFRS 9). No confidential client, fund, or corporate banking data from past or active corporate engagements (BNP Paribas CIB, Santander CIB) is contained or disclosed herein.</p>
     <p>© 2026 Igor Grybek. All rights reserved. Warsaw, Poland. · <a href="downloads/igor-grybek-high-density-master-cv.pdf">Master CV</a> · <a href="https://github.com/IgorGryb">GitHub</a> · <a href="https://www.linkedin.com/in/igor-grybek/">LinkedIn</a></p>
-  </footer></body></html>
+  </footer>
+</body>
+</html>

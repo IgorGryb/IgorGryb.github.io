@@ -8,28 +8,28 @@
     },
     {
       "path": "arxa-case-study.html",
-      "size": 14736,
-      "sha256": "e9f52205ad7caf1380d6a278477d7c373e1fa083bfcbc509931b95aefae1ae1e"
+      "size": 16799,
+      "sha256": "de83d542cc86f869b8215452cccefb64e0f869ac38850a1270b6fc6949ddfbd1"
     },
     {
       "path": "arxa-overview.html",
-      "size": 4071,
-      "sha256": "6306326afee8573bd4a099b28aac5af7903145c2d9b5f8fa390462852bf2dee8"
+      "size": 6062,
+      "sha256": "727f6399e63508773c2a10724c13ee05ca0a49dee5fa1e9e5cf9a5b05013dbbf"
     },
     {
       "path": "arxis-case-study.html",
-      "size": 12321,
-      "sha256": "cd5bd833207bf71b0a2bb1b845a2ba5371b02b9bcf9c5bfaa8f3ddd74da0d524"
+      "size": 14147,
+      "sha256": "5bf580cd4b077573934dfd2478137335c28be45652ed0dede6bcfcfe646c758c"
     },
     {
       "path": "arxis-overview.html",
-      "size": 4045,
-      "sha256": "376d11d27f57384d1d6b462a0764a6f773da9776e0d58b648780f11b680bcf76"
+      "size": 5962,
+      "sha256": "1cf3a51297ab7f34f31985da182f737e147258f3846608b6015fa17ba77f5675"
     },
     {
       "path": "downloads/Igor-Grybek-Master-CV.pdf",
       "size": 45540,
-      "sha256": "96b627ebcad4279d734d79e6b81969dbaeb22a786736cf268727c30231a6e054"
+      "sha256": "77b26a6a434b2c544c41672ab87e864f0cfb15e1bd69f00fbc6da2aed23f0e3f"
     },
     {
       "path": "downloads/arxa-decision-model.xlsx",
@@ -54,52 +54,52 @@
     {
       "path": "downloads/igor-grybek-high-density-master-cv.pdf",
       "size": 45540,
-      "sha256": "96b627ebcad4279d734d79e6b81969dbaeb22a786736cf268727c30231a6e054"
+      "sha256": "77b26a6a434b2c544c41672ab87e864f0cfb15e1bd69f00fbc6da2aed23f0e3f"
     },
     {
       "path": "edna-case-study.html",
-      "size": 14428,
-      "sha256": "a1039bbf84c41c876d176a72b1ea21073f4549c8f88d26825953e30e1622e00b"
+      "size": 15565,
+      "sha256": "16c68aba86967cd0a6c4a59b4a9eae3349ad4ee4d00eaa592331601f6c3d7905"
     },
     {
       "path": "edna-overview.html",
-      "size": 4096,
-      "sha256": "ea01cc27c9e617b584bc9094e71feb46d65c8bee470646f569e06b2ac9146512"
+      "size": 5700,
+      "sha256": "21015082543997f4a7f04bb8da0241a1d6a1c9905cc76f9f04b33b53c0effff6"
     },
     {
       "path": "hobbly-case-study.html",
-      "size": 13681,
-      "sha256": "82fc43e0890b896ec6ea7a9c7194f94920c82c005d66cd45fe4647bc70e6691f"
+      "size": 16438,
+      "sha256": "4f90ca790b886967d824dab8f54c131b4b062e84acc1767bfc26bd7776fee408"
     },
     {
       "path": "hobbly-overview.html",
-      "size": 4033,
-      "sha256": "24ff09550ae6cf380ba0ab0fa24541c40d3e8dc6fc70274de0cfc966e0c7668a"
+      "size": 5834,
+      "sha256": "9b913b49017824d40929400de31ccc90d32917450db3dd38f36761b2bd81dc15"
     },
     {
       "path": "index.html",
-      "size": 7887,
-      "sha256": "6b4234812b37cda10a0de245e5f0cd53361c0f3408fcc0a97f858f8e725ab9f0"
+      "size": 8142,
+      "sha256": "7140cdbce87336bb4b2cae93c1a642bd18fab84366bf56fd4f634208679dbb73"
     },
     {
       "path": "profile-ai-data-product.html",
-      "size": 4140,
-      "sha256": "6ccfe1a6fa44acd04696edfdae0e5eb448157d6544dbd10f6815424ab14bbdcb"
+      "size": 8326,
+      "sha256": "8695c771149895b7a983a92daa92de7e0459de984e3bcb88d3a6519e9002423d"
     },
     {
       "path": "profile-master.html",
-      "size": 4689,
-      "sha256": "06d8c01d468c71b526c05bc0c8a1337dba05f9a4b2f02ba886f9f9b85173f6c2"
+      "size": 10246,
+      "sha256": "67de1359c11f1655396a05a34c2dbe3449c1a986babb5433649dfef0c56ad843"
     },
     {
       "path": "profile-private-capital.html",
-      "size": 4175,
-      "sha256": "674c9d2ea9064ae534e4033d47e22897ca06bb54e0fa1dbb1275c089e71e351b"
+      "size": 8197,
+      "sha256": "97dcd840cb572c9df29052c31e271885efaa257dda6ba5fb158f78b86252c425"
     },
     {
       "path": "profile-quant-risk.html",
-      "size": 4080,
-      "sha256": "5adb4553bb2e29fee6be6936cfafdb49810bd1aa6547cb7c397a2299f8a429bf"
+      "size": 8316,
+      "sha256": "09f0f683975285c3940e395c700deefd33b31a5b68577865c54f819ed1597be2"
     },
     {
       "path": "style.css",

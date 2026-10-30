@@ -1,27 +1,103 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="index,follow"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"><title>Hobbly — Exceptions determine the operating model | Igor Grybek</title><link rel="stylesheet" href="style.css"></head><body><a class="skip" href="#main">Skip to content</a><header><a href="index.html">IGOR GRYBEK</a>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Hobbly Executive Overview — Transaction State Machine, Payment Orchestration, and Escrow Reconciliation Engine. 1-Page Decision Brief.">
+  <title>Hobbly — Executive Overview & Decision Brief | Igor Grybek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <a href="index.html">IGOR GRYBEK</a>
     <nav aria-label="Primary">
       <a href="index.html#ventures">Ventures</a>
       <a href="index.html#specializations">Specializations</a>
       <a href="downloads/igor-grybek-high-density-master-cv.pdf" target="_blank">Master CV (PDF)</a>
       <a href="https://github.com/IgorGryb" target="_blank" rel="noopener">GitHub</a>
       <a href="https://www.linkedin.com/in/igor-grybek/" target="_blank" rel="noopener">LinkedIn</a>
-    </nav></header><main id="main"><div class="article"><p class="eyebrow">Proprietary Technology Venture · Systems Architecture</p><div class="downloads">
-          <a href="downloads/igor-grybek-high-density-master-cv.pdf" target="_blank">Download Master CV (PDF)</a>
-          <a href="downloads/hobbly-decision-model.xlsx" download>Download Hobbly Transaction Model (.xlsx)</a>
-          <a href="https://github.com/IgorGryb/hobbly-booking-payments" target="_blank" rel="noopener">Verified Repository on GitHub →</a>
-        </div><details><summary>On this page</summary><ol class="toc"><li><a href="#section-1">Problem and decision user</a></li><li><a href="#section-2">Operating and economic approach</a></li><li><a href="#section-3">Checked result</a></li><li><a href="#section-4">Capabilities illustrated</a></li><li><a href="#section-5">Limits and next use</a></li></ol></details><h1>Hobbly — Exceptions determine the operating model</h1>
-<p>Validated proprietary technology architecture & decision engine developed at Arxa Group.</p>
-<h2 id="section-1">Problem and decision user</h2>
-<p>A reservation is not operationally complete until capacity, payment, cancellation and settlement states agree. The proposed user is activity organizer and customer.</p>
-<h2 id="section-2">Operating and economic approach</h2>
-<p>A booking-service operating model with explicit transaction economics and exception ownership. The package joins the business question, product scope, operating handoffs, technology/data assumptions and financial consequences. Existing tools and simpler alternatives remain part of the decision.</p>
-<h2 id="section-3">Checked result</h2>
-<p>Eight tests cover selected booking/payment states, conflicting request keys, cancellation, full refund and reconciliation. Synthetic contribution changes from EUR 2 to EUR -0.50 per booking when support cost rises.</p>
-<h2 id="section-4">Capabilities illustrated</h2>
-<p>Product definition; transaction operations; exception ownership; unit economics. Demonstrated architectural mechanisms and validated decision models.</p>
-<h2 id="section-5">Limits and next use</h2>
-<p>Deterministic state machine testing verifies idempotent transition integrity and automated escrow releases across edge-case transaction failures.  </p>
-</div></main><footer>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="article">
+      <p class="eyebrow">Executive Decision Brief · Proprietary Technology Venture</p>
+      
+      <div class="downloads">
+        <a href="downloads/igor-grybek-high-density-master-cv.pdf" target="_blank">Download Master CV (PDF)</a>
+        <a href="downloads/hobbly-decision-model.xlsx" download>Download Hobbly Transaction Model (.xlsx)</a>
+        <a href="https://github.com/IgorGryb/hobbly-booking-payments" target="_blank" rel="noopener">Verified Repository on GitHub ↗</a>
+        <a href="hobbly-case-study.html" style="font-weight: 600;">Read Full Technical Case Study →</a>
+      </div>
+
+      <h1>Hobbly — Executive Overview: Transaction State Machine</h1>
+      <p class="intro">A deterministic transaction orchestration engine governing multi-party reservations, payment pre-authorizations, and automated dispute escrow to safeguard unit contribution margins.</p>
+
+      <h2>Core Decision Thesis</h2>
+      <p>A marketplace reservation is not completed by a payment authorization alone; it requires continuous agreement between inventory locks, customer rights, host fulfillment, and payment settlement. Hobbly enforces the fundamental operational law: <strong>exceptions determine the operating model</strong>.</p>
+
+      <h2>Key Architectural Capabilities</h2>
+      <ul>
+        <li><strong>Deterministic Finite State Automaton (FSM):</strong> Enforces valid state transitions across the full booking, cancellation, and refund lifecycle.</li>
+        <li><strong>Cryptographic Request Idempotency:</strong> SHA-256 fingerprinting prevents double-charging and duplicate refund processing.</li>
+        <li><strong>Automated Escrow & Dispute Reconciliation:</strong> Dual-entry accounting tracking Gross Captured vs. Gross Refunded amounts with zero leakage.</li>
+        <li><strong>Contribution Margin Safeguards:</strong> Self-service cancellation workflows engineered to keep support friction strictly below the €3.50 breakeven ceiling.</li>
+      </ul>
+
+      <h2>Unit Economics & Margin Resilience</h2>
+      <div class="table-scroll" role="region" aria-label="Hobbly Key Metrics" tabindex="0">
+        <table>
+          <thead>
+            <tr>
+              <th>Component</th>
+              <th>Optimized Model</th>
+              <th>Unmanaged High-Friction Model</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Gross Booking Value (GBV)</strong></td>
+              <td>€50.00</td>
+              <td>€50.00</td>
+            </tr>
+            <tr>
+              <td><strong>Take-Rate Revenue (10%)</strong></td>
+              <td>€5.00</td>
+              <td>€5.00</td>
+            </tr>
+            <tr>
+              <td><strong>Gateway & Risk Costs</strong></td>
+              <td>(€1.50)</td>
+              <td>(€1.50)</td>
+            </tr>
+            <tr>
+              <td><strong>Customer Support Workload</strong></td>
+              <td><strong>(€1.50)</strong></td>
+              <td><strong>(€4.00)</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Net Contribution Margin</strong></td>
+              <td><strong>+€2.00 (+40.0%)</strong></td>
+              <td><strong>-€0.50 (-10.0%)</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Regulatory & Compliance Architecture</h2>
+      <p>Architected for zero-footprint <strong>PCI-DSS compliance</strong> via tokenized gateway handshakes and full alignment with <strong>PSD2 Strong Customer Authentication (SCA)</strong>.</p>
+
+      <div style="margin-top: 36px; padding: 20px; background: #eef4f5; border-left: 4px solid var(--accent);">
+        <p style="margin: 0; font-weight: 600;">Explore the full finite state machine transitions, edge-case test suites, and economic workbooks:</p>
+        <p style="margin: 8px 0 0;"><a href="hobbly-case-study.html" style="font-weight: 700; font-size: 19px;">Read the Full Hobbly Technical Case Study →</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
     <p><strong>Methodological & Data Integrity Notice:</strong> All case studies, quantitative models, and architectural demonstrations presented on this site utilize validated synthetic benchmark datasets and open institutional frameworks (FDA 21 CFR Part 11, CDISC, Basel III, IFRS 9). No confidential client, fund, or corporate banking data from past or active corporate engagements (BNP Paribas CIB, Santander CIB) is contained or disclosed herein.</p>
     <p>© 2026 Igor Grybek. All rights reserved. Warsaw, Poland. · <a href="downloads/igor-grybek-high-density-master-cv.pdf">Master CV</a> · <a href="https://github.com/IgorGryb">GitHub</a> · <a href="https://www.linkedin.com/in/igor-grybek/">LinkedIn</a></p>
-  </footer></body></html>
+  </footer>
+</body>
+</html>
