@@ -1,401 +1,150 @@
 {
-  "status": "private-local-draft",
-  "network": false,
-  "sources": [
+  "title": "Igor Grybek GitHub Pages Showcase",
+  "files": [
     {
-      "path": "4. Outputs/portfolio/release-20261026/content/arctervix-case-study.md",
-      "sha256": "fa718955e8374e6e5a9402b324aa297bc654f2ddef9443722a8db654a38c691d"
+      "path": "README.md",
+      "size": 1289,
+      "sha256": "c22e621206170eb7c611bc918c743c439048e01266e512777a2a343cb83bf347"
     },
     {
-      "path": "4. Outputs/portfolio/release-20261026/content/arctervix-dossier-annex.md",
-      "sha256": "08ccf70f99776a77b451a14c1ccc8e36d33b8fd76838ba5287e7c9518b82ebf4"
+      "path": "arxa-case-study.html",
+      "size": 14799,
+      "sha256": "c5a1a2a35a4d873fad1515dbe5a026ec24f1ff437d732a56c02d843508feeabf"
     },
     {
-      "path": "4. Outputs/portfolio/release-20261026/content/arctervix-overview.md",
-      "sha256": "f41ca9d1161f642dcbd3bec93f4cfd70eef40bdee7f1923fe2274615339617b9"
+      "path": "arxa-overview.html",
+      "size": 4132,
+      "sha256": "1b74292177c8cd64e523a6562e531aceee5a7dfb9bc5f8b06414224c4bad79ac"
     },
     {
-      "path": "4. Outputs/portfolio/release-20261026/content/arxa-case-study.md",
-      "sha256": "5885603585856dbe970dbb8d4a41d399143b3129afd0b66e92888d9559dd3612"
+      "path": "arxis-case-study.html",
+      "size": 12349,
+      "sha256": "2b72e6967ecd823ada97492fe66b6d57d11928aacf9285a28cb495f66225da09"
     },
     {
-      "path": "4. Outputs/portfolio/release-20261026/content/arxa-dossier-annex.md",
-      "sha256": "99a2397c3073f466e473983ccb88f12ba15830421db8fdfd467055f3924a3ef2"
+      "path": "arxis-overview.html",
+      "size": 4095,
+      "sha256": "00457a514427b88442e593ffcbc0a613e29785042a0d8edee716c08e9cce0632"
     },
     {
-      "path": "4. Outputs/portfolio/release-20261026/content/arxa-overview.md",
-      "sha256": "346639117546888ec9195e93e8be69a6be53cee1bca2fd4662e130457a975b91"
+      "path": "downloads/Igor-Grybek-Master-CV.pdf",
+      "size": 45540,
+      "sha256": "96b627ebcad4279d734d79e6b81969dbaeb22a786736cf268727c30231a6e054"
     },
     {
-      "path": "4. Outputs/portfolio/release-20261026/content/arxis-case-study.md",
-      "sha256": "0273c307dc1c33cb3f9838027f286bb1b9be90c3bf8230e9ea5b6124375bf128"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/arxis-dossier-annex.md",
-      "sha256": "f17612eeab24ee06bd0d7f757d6eea368d20571da4a710a9745f8da10757d23e"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/arxis-overview.md",
-      "sha256": "3941e7e4b24ce098662093036c1156260f4630c6afa19c6b619f9240e1f47331"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/edna-case-study.md",
-      "sha256": "2c5fe663eb0deca31123b95eaa69cd2f89a1b074c22d7f666f0c0d28e5858b21"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/edna-dossier-annex.md",
-      "sha256": "de5ea8f5ca5d85c3f14e298525bcd29d8769a45144ae38c428c631b6e2b57f72"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/edna-overview.md",
-      "sha256": "ae2fead17471843b55eaaee21c36238cf8f082afebf3c0124cd54c4f507e4cd6"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/hobbly-case-study.md",
-      "sha256": "f07e9c2fc28e4f65d9b3bd73f2f2a3f78246720683b9cc237edbb04703718ef5"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/hobbly-dossier-annex.md",
-      "sha256": "a5a430383bcfdc9d10b89df5b5c4503a095c55f8e77c909bc01fc53eda774372"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/hobbly-overview.md",
-      "sha256": "c064d13b1512f4970b09cdcaa4b9f4cf61dc6cf3a07c13e04c50e1ddb4758f0a"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/master-portfolio-report.md",
-      "sha256": "6a7ae4a34b3139bb858d603923e04611a01c4584f9e112abaf4eefe42e7a5865"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/profile-ai-data-product.md",
-      "sha256": "1491db180d15286863ce0a17dcfae6cb4c9b5ab7794547cce26bad3185615442"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/profile-master.md",
-      "sha256": "f78634be054725a4c53e87cd47ab06fc23c05e5d8a2828490d4cfd959de923fe"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/profile-private-capital.md",
-      "sha256": "b42b2516bbc0a5bde68f79889ccd970d57cc0553d63c59dfd13de19a6d65a95e"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/content/profile-quant-risk.md",
-      "sha256": "368b5e6033a0bb8b4084cf621df3aba770619cc003739857020fbae23043ce56"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/pdf/arctervix-case-study.pdf",
-      "sha256": "e7f8eb9cb5d178e479e7cb76b57a183197a6c6e5c5f4ff6c84ad83c7fd68a70f"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/pdf/arctervix-overview.pdf",
-      "sha256": "8ed0efc9ef28ac5d96d45243d0f660cc5f7a7077503086761c1805ceaa294e47"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/pdf/arxa-case-study.pdf",
+      "path": "downloads/arxa-case-study.pdf",
+      "size": 11177,
       "sha256": "af734516aab75bfa9aafb537a36d182dee83d99e822888c5e8304d555e9c6247"
     },
     {
-      "path": "4. Outputs/portfolio/release-20261026/pdf/arxa-overview.pdf",
-      "sha256": "4a11f92c55de39ee9d3a55d644c31990795c90c608d6851effc8946aae5dfabd"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/pdf/arxis-case-study.pdf",
-      "sha256": "84987bbd110bb5508f595be8d54b9d2d739f2eec92058e2b4ddd7dca5ac36522"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/pdf/arxis-overview.pdf",
-      "sha256": "a0abff904f282fcd44323cba2aad8ee2bd6afe725f76fb27adb34e0cbf857737"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/pdf/edna-case-study.pdf",
-      "sha256": "ed243c27e069b24dad4697a9130ea1f9064cccdf4c4bcf975711ffd57fb7c73f"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/pdf/edna-overview.pdf",
-      "sha256": "ea7d7ccd005ba416d5ffa8f00aca11c54bec20a7ac4e53484dc7ede2b38fa7b2"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/pdf/full-portfolio-report.pdf",
-      "sha256": "1b0074361c401a7590d870b26763801c7d809ce375f7162044962ca82f01e171"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/pdf/hobbly-case-study.pdf",
-      "sha256": "056aea8468ecd7ca8ead33b55e02ef6891aaab7bb44c85205a033e1d661f39a8"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/pdf/hobbly-overview.pdf",
-      "sha256": "6d7bf9aa97beae108a848aa2bf312246e1724e17afeddd79393c6b3bb2f0e5fb"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/pdf/master-portfolio-report.pdf",
-      "sha256": "f45b767af32bb863b592c9ebf537b74658f1f6dbb8c30f968fd2dd653ad789ba"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/workbooks/arctervix-decision-model.xlsx",
-      "sha256": "e155553182fa445d72dbceb8d323971af9243de504934c1b90cb531317a72215"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/workbooks/arxa-decision-model.xlsx",
+      "path": "downloads/arxa-decision-model.xlsx",
+      "size": 8130,
       "sha256": "9a43dc0b4c279a247d8da8ae1fa3b1d5ce8b346c426e65d9ecf9e2c765f34c08"
     },
     {
-      "path": "4. Outputs/portfolio/release-20261026/workbooks/arxis-decision-model.xlsx",
+      "path": "downloads/arxa-overview.pdf",
+      "size": 2916,
+      "sha256": "4a11f92c55de39ee9d3a55d644c31990795c90c608d6851effc8946aae5dfabd"
+    },
+    {
+      "path": "downloads/arxis-case-study.pdf",
+      "size": 9143,
+      "sha256": "84987bbd110bb5508f595be8d54b9d2d739f2eec92058e2b4ddd7dca5ac36522"
+    },
+    {
+      "path": "downloads/arxis-decision-model.xlsx",
+      "size": 7925,
       "sha256": "1dce1d2b9ba77c4ee6f3859b122891d300fb1d9b1ed07690ef28025e6dcbdef8"
     },
     {
-      "path": "4. Outputs/portfolio/release-20261026/workbooks/edna-decision-model.xlsx",
+      "path": "downloads/arxis-overview.pdf",
+      "size": 2894,
+      "sha256": "a0abff904f282fcd44323cba2aad8ee2bd6afe725f76fb27adb34e0cbf857737"
+    },
+    {
+      "path": "downloads/edna-case-study.pdf",
+      "size": 11568,
+      "sha256": "ed243c27e069b24dad4697a9130ea1f9064cccdf4c4bcf975711ffd57fb7c73f"
+    },
+    {
+      "path": "downloads/edna-decision-model.xlsx",
+      "size": 8197,
       "sha256": "ad961979ec4f7549c423e2bcdf5f93430bb2583661308f7b4d378fa98cb057f3"
     },
     {
-      "path": "4. Outputs/portfolio/release-20261026/workbooks/hobbly-decision-model.xlsx",
+      "path": "downloads/edna-overview.pdf",
+      "size": 2921,
+      "sha256": "ea7d7ccd005ba416d5ffa8f00aca11c54bec20a7ac4e53484dc7ede2b38fa7b2"
+    },
+    {
+      "path": "downloads/hobbly-case-study.pdf",
+      "size": 10946,
+      "sha256": "056aea8468ecd7ca8ead33b55e02ef6891aaab7bb44c85205a033e1d661f39a8"
+    },
+    {
+      "path": "downloads/hobbly-decision-model.xlsx",
+      "size": 8162,
       "sha256": "ce3378dddb26c1b94dcaa964d6ae7de652f7392644a122507fb6ab97ac7a7a21"
     },
     {
-      "path": "4. Outputs/portfolio/release-20261026/presentation/igor-grybek-management-portfolio.pptx",
-      "sha256": "fd655ac98b51f45c98103541b8775f1a9ddf84f9eb707f5a61591c75d51adc0c"
-    }
-  ],
-  "outputs": [
+      "path": "downloads/hobbly-overview.pdf",
+      "size": 2922,
+      "sha256": "6d7bf9aa97beae108a848aa2bf312246e1724e17afeddd79393c6b3bb2f0e5fb"
+    },
     {
-      "path": "4. Outputs/portfolio/release-20261026/web/style.css",
+      "path": "downloads/igor-grybek-high-density-master-cv.pdf",
+      "size": 45540,
+      "sha256": "96b627ebcad4279d734d79e6b81969dbaeb22a786736cf268727c30231a6e054"
+    },
+    {
+      "path": "edna-case-study.html",
+      "size": 14289,
+      "sha256": "a3801a087c65de154d20d95a41e9578a1dddcfdae768e7ba5d1d676aa83e3cf7"
+    },
+    {
+      "path": "edna-overview.html",
+      "size": 4095,
+      "sha256": "e8d52cb640d45d798b126a664cc46a9948eb8ae11925b6a94efde8b89ad81f63"
+    },
+    {
+      "path": "hobbly-case-study.html",
+      "size": 13758,
+      "sha256": "bfacaa8ba122e664c4f6dbf3d8246443bb0f53c9a2e0056ea57859a65909073c"
+    },
+    {
+      "path": "hobbly-overview.html",
+      "size": 4127,
+      "sha256": "1fe2afc845ade64d5aa435b7cbac6730b194d339642fea25233f7b82cdd3fe8f"
+    },
+    {
+      "path": "index.html",
+      "size": 7887,
+      "sha256": "6b4234812b37cda10a0de245e5f0cd53361c0f3408fcc0a97f858f8e725ab9f0"
+    },
+    {
+      "path": "profile-ai-data-product.html",
+      "size": 4089,
+      "sha256": "53d8e2dd7bf7b88062116fbe28ff79235bcebc5bf094d6eddfb0bcfe366ea66a"
+    },
+    {
+      "path": "profile-master.html",
+      "size": 4616,
+      "sha256": "f463a667209c055ddde67f9c223cd1ba6f673c2a5b37c13abbf05ac9c12c02fd"
+    },
+    {
+      "path": "profile-private-capital.html",
+      "size": 4111,
+      "sha256": "950bfaef54aa8a4df896230042335e220cf5ae61ec3e4dbe2bf6c121a5e94282"
+    },
+    {
+      "path": "profile-quant-risk.html",
+      "size": 4080,
+      "sha256": "5adb4553bb2e29fee6be6936cfafdb49810bd1aa6547cb7c397a2299f8a429bf"
+    },
+    {
+      "path": "style.css",
+      "size": 2980,
       "sha256": "ff283369ebaced08ed336cb6fac6926b5bd9a6f0b4d2caf6d9aa2e1da42d7d3b"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/arctervix-case-study.md",
-      "sha256": "fa718955e8374e6e5a9402b324aa297bc654f2ddef9443722a8db654a38c691d"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/arctervix-case-study.html",
-      "sha256": "13dd88d34638b6c9691ab19423661c3305305ae02c9e0cb7dfd416538a4f4b60"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/arctervix-dossier-annex.md",
-      "sha256": "08ccf70f99776a77b451a14c1ccc8e36d33b8fd76838ba5287e7c9518b82ebf4"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/arctervix-dossier-annex.html",
-      "sha256": "531764b11285bc964a9b36ff9603deca393e32e4baa055973926520ef7174244"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/arctervix-overview.md",
-      "sha256": "f41ca9d1161f642dcbd3bec93f4cfd70eef40bdee7f1923fe2274615339617b9"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/arctervix-overview.html",
-      "sha256": "3289b8e95659f1f6cee3173671f6ce320aa4081ba01ed99c7f7d5f84f726fa0e"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/arxa-case-study.md",
-      "sha256": "5885603585856dbe970dbb8d4a41d399143b3129afd0b66e92888d9559dd3612"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/arxa-case-study.html",
-      "sha256": "d2be0eb6c9bd5ccf43eff292bc362e23b9b56fb142306d1e6bdada5e27c622be"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/arxa-dossier-annex.md",
-      "sha256": "99a2397c3073f466e473983ccb88f12ba15830421db8fdfd467055f3924a3ef2"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/arxa-dossier-annex.html",
-      "sha256": "f0cd40b0d774848dcc69f2c56bde6602a4379423239d71225e5cecfc4b7ddf79"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/arxa-overview.md",
-      "sha256": "346639117546888ec9195e93e8be69a6be53cee1bca2fd4662e130457a975b91"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/arxa-overview.html",
-      "sha256": "195ee0f8298f9ae914e10588924c76c1dfcecce8bfcaf1bb9564b46166325978"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/arxis-case-study.md",
-      "sha256": "0273c307dc1c33cb3f9838027f286bb1b9be90c3bf8230e9ea5b6124375bf128"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/arxis-case-study.html",
-      "sha256": "aa9f091f68de584cb58da5c5ab7011b8ae6bd27273454a9a0260b6363c0b0edc"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/arxis-dossier-annex.md",
-      "sha256": "f17612eeab24ee06bd0d7f757d6eea368d20571da4a710a9745f8da10757d23e"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/arxis-dossier-annex.html",
-      "sha256": "5f310055ccb486bfb2198187ab4449267775f191a172da37faa406c886de2be2"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/arxis-overview.md",
-      "sha256": "3941e7e4b24ce098662093036c1156260f4630c6afa19c6b619f9240e1f47331"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/arxis-overview.html",
-      "sha256": "3782c53d3dc0976132388fe42ea4d3dade2aa3e940b32d18b3ca292d0f76be60"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/edna-case-study.md",
-      "sha256": "2c5fe663eb0deca31123b95eaa69cd2f89a1b074c22d7f666f0c0d28e5858b21"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/edna-case-study.html",
-      "sha256": "9fa79eb3c7e1926f9ae01453daffce3245b98e4279916699e32dc1e80d4be6a9"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/edna-dossier-annex.md",
-      "sha256": "de5ea8f5ca5d85c3f14e298525bcd29d8769a45144ae38c428c631b6e2b57f72"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/edna-dossier-annex.html",
-      "sha256": "1fcbb3cd46e2f513a3869829a914bce1dec3657df0f45763fce1d2e50e676e64"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/edna-overview.md",
-      "sha256": "ae2fead17471843b55eaaee21c36238cf8f082afebf3c0124cd54c4f507e4cd6"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/edna-overview.html",
-      "sha256": "a7bd29c915293318d28e69092a8880b4d0304dcfe834ee5a241cb9eb323db811"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/hobbly-case-study.md",
-      "sha256": "f07e9c2fc28e4f65d9b3bd73f2f2a3f78246720683b9cc237edbb04703718ef5"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/hobbly-case-study.html",
-      "sha256": "f6f05bf1f2e739de07be1558848c6c44e5bc8e89bbf4cc88c421571cfd6b3237"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/hobbly-dossier-annex.md",
-      "sha256": "a5a430383bcfdc9d10b89df5b5c4503a095c55f8e77c909bc01fc53eda774372"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/hobbly-dossier-annex.html",
-      "sha256": "e09791358368d5e14a3366dca28acd513e770f22d769fb74c5584917bade9025"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/hobbly-overview.md",
-      "sha256": "c064d13b1512f4970b09cdcaa4b9f4cf61dc6cf3a07c13e04c50e1ddb4758f0a"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/hobbly-overview.html",
-      "sha256": "91eb68415b33f59b642d3938d824086674403c8dada204a8d115387c0eeacff9"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/master-portfolio-report.md",
-      "sha256": "6a7ae4a34b3139bb858d603923e04611a01c4584f9e112abaf4eefe42e7a5865"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/master-portfolio-report.html",
-      "sha256": "e4090bd207e1625f86f856a8df8e122c0233a4a2468bcce42adc4c5eb2850d1e"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/profile-ai-data-product.md",
-      "sha256": "1491db180d15286863ce0a17dcfae6cb4c9b5ab7794547cce26bad3185615442"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/profile-ai-data-product.html",
-      "sha256": "9cbae458cdd7e64325d0438c046d5e4e09d46c80721166ca21f788fc7e205d2c"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/profile-master.md",
-      "sha256": "f78634be054725a4c53e87cd47ab06fc23c05e5d8a2828490d4cfd959de923fe"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/profile-master.html",
-      "sha256": "a0d5d69d6d82298b8dc2ae7a08afb4c867de6bc8e91cceca74921884a0dcfe08"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/profile-private-capital.md",
-      "sha256": "b42b2516bbc0a5bde68f79889ccd970d57cc0553d63c59dfd13de19a6d65a95e"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/profile-private-capital.html",
-      "sha256": "3387f03998817cd1d84a88da03f4e768d48dea3f096dd43869a36983318e2806"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/sources/profile-quant-risk.md",
-      "sha256": "368b5e6033a0bb8b4084cf621df3aba770619cc003739857020fbae23043ce56"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/profile-quant-risk.html",
-      "sha256": "ae4675f3cf835b2f2c8e34d80ef578491b04ae62f042155ba3b027e2efb92d37"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/index.html",
-      "sha256": "c680d5fac053181dec04eb427da5d256ef2b243dbd1ca98801aec73eef75c72f"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/arctervix-case-study.pdf",
-      "sha256": "e7f8eb9cb5d178e479e7cb76b57a183197a6c6e5c5f4ff6c84ad83c7fd68a70f"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/arctervix-overview.pdf",
-      "sha256": "8ed0efc9ef28ac5d96d45243d0f660cc5f7a7077503086761c1805ceaa294e47"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/arxa-case-study.pdf",
-      "sha256": "af734516aab75bfa9aafb537a36d182dee83d99e822888c5e8304d555e9c6247"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/arxa-overview.pdf",
-      "sha256": "4a11f92c55de39ee9d3a55d644c31990795c90c608d6851effc8946aae5dfabd"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/arxis-case-study.pdf",
-      "sha256": "84987bbd110bb5508f595be8d54b9d2d739f2eec92058e2b4ddd7dca5ac36522"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/arxis-overview.pdf",
-      "sha256": "a0abff904f282fcd44323cba2aad8ee2bd6afe725f76fb27adb34e0cbf857737"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/edna-case-study.pdf",
-      "sha256": "ed243c27e069b24dad4697a9130ea1f9064cccdf4c4bcf975711ffd57fb7c73f"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/edna-overview.pdf",
-      "sha256": "ea7d7ccd005ba416d5ffa8f00aca11c54bec20a7ac4e53484dc7ede2b38fa7b2"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/full-portfolio-report.pdf",
-      "sha256": "1b0074361c401a7590d870b26763801c7d809ce375f7162044962ca82f01e171"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/hobbly-case-study.pdf",
-      "sha256": "056aea8468ecd7ca8ead33b55e02ef6891aaab7bb44c85205a033e1d661f39a8"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/hobbly-overview.pdf",
-      "sha256": "6d7bf9aa97beae108a848aa2bf312246e1724e17afeddd79393c6b3bb2f0e5fb"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/master-portfolio-report.pdf",
-      "sha256": "f45b767af32bb863b592c9ebf537b74658f1f6dbb8c30f968fd2dd653ad789ba"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/arctervix-decision-model.xlsx",
-      "sha256": "e155553182fa445d72dbceb8d323971af9243de504934c1b90cb531317a72215"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/arxa-decision-model.xlsx",
-      "sha256": "9a43dc0b4c279a247d8da8ae1fa3b1d5ce8b346c426e65d9ecf9e2c765f34c08"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/arxis-decision-model.xlsx",
-      "sha256": "1dce1d2b9ba77c4ee6f3859b122891d300fb1d9b1ed07690ef28025e6dcbdef8"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/edna-decision-model.xlsx",
-      "sha256": "ad961979ec4f7549c423e2bcdf5f93430bb2583661308f7b4d378fa98cb057f3"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/hobbly-decision-model.xlsx",
-      "sha256": "ce3378dddb26c1b94dcaa964d6ae7de652f7392644a122507fb6ab97ac7a7a21"
-    },
-    {
-      "path": "4. Outputs/portfolio/release-20261026/web/downloads/igor-grybek-management-portfolio.pptx",
-      "sha256": "fd655ac98b51f45c98103541b8775f1a9ddf84f9eb707f5a61591c75d51adc0c"
     }
-  ],
-  "visual_review": "pending"
+  ]
 }
