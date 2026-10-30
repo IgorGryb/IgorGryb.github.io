@@ -16,3 +16,4 @@ This portfolio presents interactive case studies, multi-dimensional decision mod
 - `profile-*.html`: Audience-specific professional profiles (Private Capital, Quant/Risk, AI/Data/Product).
 - `downloads/`: Executive PDF briefs, decision model workbooks, and presentations.
 - `.nojekyll`: Disables Jekyll processing on GitHub Pages to ensure raw assets and styles are served directly.
+

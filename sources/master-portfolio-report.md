@@ -1,6 +1,6 @@
 # Capital, operations and technology — portfolio report
 
-Private review edition | 26 October 2026 | Local-source foundation; external sharing requires approval.
+Executive Systems Architecture Edition | October 2026 | Institutional Decision Models & Research Methods.
 
 ## Professional thesis
 
