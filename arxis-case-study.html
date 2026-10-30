@@ -26,9 +26,10 @@
       
       <div class="downloads">
         <a href="downloads/igor-grybek-high-density-master-cv.pdf" target="_blank">Download Master CV (PDF)</a>
-        <a href="downloads/arxis-decision-model.xlsx" download>Download ARXIS Dependency Model (.xlsx)</a>
+        <a href="downloads/arxis-architecture-whitepaper.pdf" target="_blank" style="font-weight: 700;">Architecture Whitepaper (PDF) ↗</a>
+        <a href="downloads/arxis-decision-model.xlsx" download>Dependency Model (.xlsx)</a>
         <a href="https://github.com/IgorGryb/arxis-traceability" target="_blank" rel="noopener">Verified Repository on GitHub ↗</a>
-        <a href="arxis-overview.html" style="font-weight: 600;">Executive Overview (1-Page Brief) →</a>
+        <a href="arxis-overview.html" style="font-weight: 600;">Executive Brief (1-Page) →</a>
       </div>
 
       <details>
@@ -62,6 +63,92 @@
 
       <h2 id="system-architecture">3. System Architecture & Graph Mechanics</h2>
       <p>ARXIS models project documentation as a formal mathematical graph, structured into four interconnected tiers:</p>
+
+      <div class="table-scroll" style="margin: 20px 0;">
+        <svg viewBox="0 0 900 290" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, sans-serif; background: #fafbfc; border: 1px solid #cbd8d9; border-radius: 6px;">
+          <defs>
+            <marker id="arrow-arxis" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#176368" />
+            </marker>
+          </defs>
+          <rect x="0" y="0" width="900" height="38" fill="#e6eeee" />
+          <text x="20" y="24" font-size="13" font-weight="700" fill="#152f3d" letter-spacing="0.05em">ARXIS — MULTI-DISCIPLINARY DEPENDENCY DAG &amp; CHANGE GOVERNANCE (ISO 19650)</text>
+          
+          <!-- Tier 1 -->
+          <g transform="translate(25, 55)">
+            <rect width="145" height="210" rx="6" fill="#ffffff" stroke="#176368" stroke-width="2" />
+            <rect width="145" height="34" rx="6" fill="#176368" />
+            <text x="72" y="22" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">TIER 1: REQUIREMENTS</text>
+            <text x="12" y="60" font-size="11" font-weight="600" fill="#152f3d">• Client Mandates</text>
+            <text x="12" y="85" font-size="11" fill="#425d68">• Regulatory Codes</text>
+            <text x="12" y="110" font-size="11" font-weight="700" fill="#176368">• Unique REQ_ID</text>
+            <text x="12" y="135" font-size="11" fill="#425d68">• Spatial Boundaries</text>
+            <text x="12" y="160" font-size="11" fill="#425d68">• Acceptance Criteria</text>
+            <rect x="10" y="178" width="125" height="1" fill="#cbd8d9" />
+            <text x="72" y="196" font-size="10" fill="#152f3d" text-anchor="middle" font-weight="700">Root Intent Nodes</text>
+          </g>
+          <line x1="175" y1="160" x2="200" y2="160" stroke="#176368" stroke-width="2" marker-end="url(#arrow-arxis)" />
+
+          <!-- Tier 2 -->
+          <g transform="translate(205, 55)">
+            <rect width="145" height="210" rx="6" fill="#ffffff" stroke="#176368" stroke-width="2" />
+            <rect width="145" height="34" rx="6" fill="#176368" />
+            <text x="72" y="22" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">TIER 2: DECISIONS</text>
+            <text x="12" y="60" font-size="11" font-weight="600" fill="#152f3d">• Multi-Lead Trade-offs</text>
+            <text x="12" y="85" font-size="11" fill="#425d68">• Arch / Struct / MEP</text>
+            <text x="12" y="110" font-size="11" font-weight="700" fill="#176368">• DEC_ID Lineage</text>
+            <text x="12" y="135" font-size="11" fill="#425d68">• Approver Mandate</text>
+            <text x="12" y="160" font-size="11" fill="#425d68">• Effective Baseline</text>
+            <rect x="10" y="178" width="125" height="1" fill="#cbd8d9" />
+            <text x="72" y="196" font-size="10" fill="#152f3d" text-anchor="middle" font-weight="700">Design Trade-offs</text>
+          </g>
+          <line x1="355" y1="160" x2="380" y2="160" stroke="#176368" stroke-width="2" marker-end="url(#arrow-arxis)" />
+
+          <!-- Tier 3 -->
+          <g transform="translate(385, 55)">
+            <rect width="145" height="210" rx="6" fill="#ffffff" stroke="#176368" stroke-width="2" />
+            <rect width="145" height="34" rx="6" fill="#176368" />
+            <text x="72" y="22" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">TIER 3: ARTIFACTS</text>
+            <text x="12" y="60" font-size="11" font-weight="600" fill="#152f3d">• Revit / IFC Models</text>
+            <text x="12" y="85" font-size="11" fill="#425d68">• 2D Drawing Sheets</text>
+            <text x="12" y="110" font-size="11" font-weight="700" fill="#176368">• SHA-256 Hashes</text>
+            <text x="12" y="135" font-size="11" fill="#425d68">• Zero Orphan Nodes</text>
+            <text x="12" y="160" font-size="11" fill="#425d68">• Immutable Versions</text>
+            <rect x="10" y="178" width="125" height="1" fill="#cbd8d9" />
+            <text x="72" y="196" font-size="10" fill="#152f3d" text-anchor="middle" font-weight="700">Digital Deliverables</text>
+          </g>
+          <line x1="535" y1="160" x2="560" y2="160" stroke="#176368" stroke-width="2" marker-end="url(#arrow-arxis)" />
+
+          <!-- Tier 4 -->
+          <g transform="translate(565, 55)">
+            <rect width="145" height="210" rx="6" fill="#ffffff" stroke="#176368" stroke-width="2" />
+            <rect width="145" height="34" rx="6" fill="#176368" />
+            <text x="72" y="22" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">TIER 4: CHANGE DAG</text>
+            <text x="12" y="60" font-size="11" font-weight="600" fill="#152f3d">• Transitive Closure</text>
+            <text x="12" y="85" font-size="11" fill="#425d68">• Blast Radius Traversal</text>
+            <text x="12" y="110" font-size="11" font-weight="700" fill="#176368">• Cycle Detection</text>
+            <text x="12" y="135" font-size="11" fill="#425d68">• Downstream Stale Flag</text>
+            <text x="12" y="160" font-size="11" fill="#425d68">• Version Desync Lock</text>
+            <rect x="10" y="178" width="125" height="1" fill="#cbd8d9" />
+            <text x="72" y="196" font-size="10" fill="#152f3d" text-anchor="middle" font-weight="700">Topological Impact</text>
+          </g>
+          <line x1="715" y1="160" x2="740" y2="160" stroke="#176368" stroke-width="2" marker-end="url(#arrow-arxis)" />
+
+          <!-- Tier 5 -->
+          <g transform="translate(745, 55)">
+            <rect width="130" height="210" rx="6" fill="#ffffff" stroke="#176368" stroke-width="2" />
+            <rect width="130" height="34" rx="6" fill="#152f3d" />
+            <text x="65" y="22" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">5. RACI GATES</text>
+            <text x="10" y="60" font-size="11" font-weight="600" fill="#152f3d">• Discipline Lead Sign</text>
+            <text x="10" y="85" font-size="11" fill="#425d68">• CDE Baseline Lock</text>
+            <text x="10" y="110" font-size="11" font-weight="700" fill="#176368">• Zero Site Clashes</text>
+            <text x="10" y="135" font-size="11" fill="#425d68">• Site Rebar/Concrete</text>
+            <text x="10" y="160" font-size="11" fill="#425d68">• FIDIC Audit Trail</text>
+            <rect x="10" y="178" width="110" height="1" fill="#cbd8d9" />
+            <text x="65" y="196" font-size="10" fill="#152f3d" text-anchor="middle" font-weight="700">&gt;200× Rework ROI</text>
+          </g>
+        </svg>
+      </div>
       <div class="table-scroll" role="region" aria-label="ARXIS System Architecture" tabindex="0">
         <table>
           <thead>

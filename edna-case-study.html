@@ -26,9 +26,10 @@
       
       <div class="downloads">
         <a href="downloads/igor-grybek-high-density-master-cv.pdf" target="_blank">Download Master CV (PDF)</a>
-        <a href="downloads/edna-decision-model.xlsx" download>Download EDNA Decision Model (.xlsx)</a>
+        <a href="downloads/edna-architecture-whitepaper.pdf" target="_blank" style="font-weight: 700;">Architecture Whitepaper (PDF) ↗</a>
+        <a href="downloads/edna-decision-model.xlsx" download>Decision Model (.xlsx)</a>
         <a href="https://github.com/IgorGryb/edna-knowledge-platform" target="_blank" rel="noopener">Verified Repository on GitHub ↗</a>
-        <a href="edna-overview.html" style="font-weight: 600;">Executive Overview (1-Page Brief) →</a>
+        <a href="edna-overview.html" style="font-weight: 600;">Executive Brief (1-Page) →</a>
       </div>
 
       <details>
@@ -62,6 +63,92 @@
 
       <h2 id="system-architecture">3. System Architecture & Core Mechanics</h2>
       <p>EDNA operates on a zero-trust evidence pipeline structured across five deterministic layers:</p>
+      
+      <div class="table-scroll" style="margin: 20px 0;">
+        <svg viewBox="0 0 900 290" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, sans-serif; background: #fafbfc; border: 1px solid #cbd8d9; border-radius: 6px;">
+          <defs>
+            <marker id="arrow-edna" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#176368" />
+            </marker>
+          </defs>
+          <rect x="0" y="0" width="900" height="38" fill="#e6eeee" />
+          <text x="20" y="24" font-size="13" font-weight="700" fill="#152f3d" letter-spacing="0.05em">EDNA — ZERO-TRUST RETRIEVAL &amp; CITATION ENTAILMENT PIPELINE (FDA 21 CFR PART 11 / EU AI ACT)</text>
+          
+          <!-- Stage 1 -->
+          <g transform="translate(25, 55)">
+            <rect width="145" height="210" rx="6" fill="#ffffff" stroke="#176368" stroke-width="2" />
+            <rect width="145" height="34" rx="6" fill="#176368" />
+            <text x="72" y="22" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">1. SOURCE INGEST</text>
+            <text x="12" y="60" font-size="11" font-weight="600" fill="#152f3d">• Master Regs &amp; SOPs</text>
+            <text x="12" y="85" font-size="11" fill="#425d68">• Chunk Splitting</text>
+            <text x="12" y="110" font-size="11" font-weight="700" fill="#176368">• SHA-256 Hashing</text>
+            <text x="12" y="135" font-size="11" fill="#425d68">• Access Tiers</text>
+            <text x="12" y="160" font-size="11" fill="#425d68">• Quarantine Engine</text>
+            <rect x="10" y="178" width="125" height="1" fill="#cbd8d9" />
+            <text x="72" y="196" font-size="10" fill="#152f3d" text-anchor="middle" font-weight="700">Immutable Lineage</text>
+          </g>
+          <line x1="175" y1="160" x2="200" y2="160" stroke="#176368" stroke-width="2" marker-end="url(#arrow-edna)" />
+
+          <!-- Stage 2 -->
+          <g transform="translate(205, 55)">
+            <rect width="145" height="210" rx="6" fill="#ffffff" stroke="#176368" stroke-width="2" />
+            <rect width="145" height="34" rx="6" fill="#176368" />
+            <text x="72" y="22" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">2. DUAL RETRIEVAL</text>
+            <text x="12" y="60" font-size="11" font-weight="600" fill="#152f3d">• Query Vectorization</text>
+            <text x="12" y="85" font-size="11" fill="#425d68">• BM25 Lexical Filter</text>
+            <text x="12" y="110" font-size="11" fill="#425d68">• Concept Expansion</text>
+            <text x="12" y="135" font-size="11" font-weight="700" fill="#176368">• MRR 0.90 Ranking</text>
+            <text x="12" y="160" font-size="11" fill="#425d68">• Candidate Pool</text>
+            <rect x="10" y="178" width="125" height="1" fill="#cbd8d9" />
+            <text x="72" y="196" font-size="10" fill="#152f3d" text-anchor="middle" font-weight="700">Hit@3: 100% Recall</text>
+          </g>
+          <line x1="355" y1="160" x2="380" y2="160" stroke="#176368" stroke-width="2" marker-end="url(#arrow-edna)" />
+
+          <!-- Stage 3 -->
+          <g transform="translate(385, 55)">
+            <rect width="145" height="210" rx="6" fill="#ffffff" stroke="#176368" stroke-width="2" />
+            <rect width="145" height="34" rx="6" fill="#176368" />
+            <text x="72" y="22" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">3. ENTAILMENT TEST</text>
+            <text x="12" y="60" font-size="11" font-weight="600" fill="#152f3d">• NLI Inference Score</text>
+            <text x="12" y="85" font-size="11" fill="#425d68">• Premise vs Claim</text>
+            <text x="12" y="110" font-size="11" font-weight="700" fill="#176368">• Zero Hallucination</text>
+            <text x="12" y="135" font-size="11" fill="#425d68">• Excerpt Alignment</text>
+            <text x="12" y="160" font-size="11" fill="#425d68">• Abstention Gate</text>
+            <rect x="10" y="178" width="125" height="1" fill="#cbd8d9" />
+            <text x="72" y="196" font-size="10" fill="#152f3d" text-anchor="middle" font-weight="700">Entailment: 100%</text>
+          </g>
+          <line x1="535" y1="160" x2="560" y2="160" stroke="#176368" stroke-width="2" marker-end="url(#arrow-edna)" />
+
+          <!-- Stage 4 -->
+          <g transform="translate(565, 55)">
+            <rect width="145" height="210" rx="6" fill="#ffffff" stroke="#176368" stroke-width="2" />
+            <rect width="145" height="34" rx="6" fill="#176368" />
+            <text x="72" y="22" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">4. CONFLICT ARBITER</text>
+            <text x="12" y="60" font-size="11" font-weight="600" fill="#152f3d">• Cross-Policy Match</text>
+            <text x="12" y="85" font-size="11" fill="#425d68">• Opposing Rules</text>
+            <text x="12" y="110" font-size="11" font-weight="700" fill="#176368">• Conflict Quarantine</text>
+            <text x="12" y="135" font-size="11" fill="#425d68">• Explicit Abstention</text>
+            <text x="12" y="160" font-size="11" fill="#425d68">• Review Escalation</text>
+            <rect x="10" y="178" width="125" height="1" fill="#cbd8d9" />
+            <text x="72" y="196" font-size="10" fill="#152f3d" text-anchor="middle" font-weight="700">Zero Silent Merging</text>
+          </g>
+          <line x1="715" y1="160" x2="740" y2="160" stroke="#176368" stroke-width="2" marker-end="url(#arrow-edna)" />
+
+          <!-- Stage 5 -->
+          <g transform="translate(745, 55)">
+            <rect width="130" height="210" rx="6" fill="#ffffff" stroke="#176368" stroke-width="2" />
+            <rect width="130" height="34" rx="6" fill="#152f3d" />
+            <text x="65" y="22" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">5. AUDIT MEMO</text>
+            <text x="10" y="60" font-size="11" font-weight="600" fill="#152f3d">• Signed Manifest</text>
+            <text x="10" y="85" font-size="11" fill="#425d68">• Exact Citations</text>
+            <text x="10" y="110" font-size="11" font-weight="700" fill="#176368">• SHA-256 Digest</text>
+            <text x="10" y="135" font-size="11" fill="#425d68">• RACI Review State</text>
+            <text x="10" y="160" font-size="11" fill="#425d68">• PDF / JSON Export</text>
+            <rect x="10" y="178" width="110" height="1" fill="#cbd8d9" />
+            <text x="65" y="196" font-size="10" fill="#152f3d" text-anchor="middle" font-weight="700">30% Cost Savings</text>
+          </g>
+        </svg>
+      </div>
       <div class="table-scroll" role="region" aria-label="EDNA System Architecture" tabindex="0">
         <table>
           <thead>

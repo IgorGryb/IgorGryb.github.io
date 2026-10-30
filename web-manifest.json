@@ -2,84 +2,59 @@
   "title": "Igor Grybek GitHub Pages Showcase",
   "files": [
     {
+      "path": ".nojekyll",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
       "path": "README.md",
       "size": 1289,
       "sha256": "c22e621206170eb7c611bc918c743c439048e01266e512777a2a343cb83bf347"
     },
     {
       "path": "arxa-case-study.html",
-      "size": 16799,
-      "sha256": "de83d542cc86f869b8215452cccefb64e0f869ac38850a1270b6fc6949ddfbd1"
+      "size": 23615,
+      "sha256": "51083af3fb92c85f47097f11f88b63dd34ac8e4ba7e3bed09ed6f8dcdca82096"
     },
     {
       "path": "arxa-overview.html",
-      "size": 6062,
-      "sha256": "727f6399e63508773c2a10724c13ee05ca0a49dee5fa1e9e5cf9a5b05013dbbf"
+      "size": 6184,
+      "sha256": "fbee224a2ecb7ba25734bad6681cafaef9b6c8ea242e158eff0b8b44d1daa393"
     },
     {
       "path": "arxis-case-study.html",
-      "size": 14147,
-      "sha256": "5bf580cd4b077573934dfd2478137335c28be45652ed0dede6bcfcfe646c758c"
+      "size": 20971,
+      "sha256": "39fb70edad2173518bbed15308452a215897007c92f36db7d5a788cb82daf1fd"
     },
     {
       "path": "arxis-overview.html",
-      "size": 5962,
-      "sha256": "1cf3a51297ab7f34f31985da182f737e147258f3846608b6015fa17ba77f5675"
-    },
-    {
-      "path": "downloads/Igor-Grybek-Master-CV.pdf",
-      "size": 45540,
-      "sha256": "77b26a6a434b2c544c41672ab87e864f0cfb15e1bd69f00fbc6da2aed23f0e3f"
-    },
-    {
-      "path": "downloads/arxa-decision-model.xlsx",
-      "size": 8130,
-      "sha256": "9a43dc0b4c279a247d8da8ae1fa3b1d5ce8b346c426e65d9ecf9e2c765f34c08"
-    },
-    {
-      "path": "downloads/arxis-decision-model.xlsx",
-      "size": 7925,
-      "sha256": "1dce1d2b9ba77c4ee6f3859b122891d300fb1d9b1ed07690ef28025e6dcbdef8"
-    },
-    {
-      "path": "downloads/edna-decision-model.xlsx",
-      "size": 8197,
-      "sha256": "ad961979ec4f7549c423e2bcdf5f93430bb2583661308f7b4d378fa98cb057f3"
-    },
-    {
-      "path": "downloads/hobbly-decision-model.xlsx",
-      "size": 8162,
-      "sha256": "ce3378dddb26c1b94dcaa964d6ae7de652f7392644a122507fb6ab97ac7a7a21"
-    },
-    {
-      "path": "downloads/igor-grybek-high-density-master-cv.pdf",
-      "size": 45540,
-      "sha256": "77b26a6a434b2c544c41672ab87e864f0cfb15e1bd69f00fbc6da2aed23f0e3f"
+      "size": 6084,
+      "sha256": "048e64dd4a60c425d03575e4c2f7bd52ba748f9fcad2c27c6a17e82091b28743"
     },
     {
       "path": "edna-case-study.html",
-      "size": 15565,
-      "sha256": "16c68aba86967cd0a6c4a59b4a9eae3349ad4ee4d00eaa592331601f6c3d7905"
+      "size": 22383,
+      "sha256": "d9835217c031018599ef88822462280bb31d7dfade47cb7f543eea554af16bee"
     },
     {
       "path": "edna-overview.html",
-      "size": 5700,
-      "sha256": "21015082543997f4a7f04bb8da0241a1d6a1c9905cc76f9f04b33b53c0effff6"
+      "size": 5822,
+      "sha256": "4619f82bfe4ce1d949fae2abc9c96de7b40a26b6dab6bc12f980aab35bf750d7"
     },
     {
       "path": "hobbly-case-study.html",
-      "size": 16438,
-      "sha256": "4f90ca790b886967d824dab8f54c131b4b062e84acc1767bfc26bd7776fee408"
+      "size": 23267,
+      "sha256": "069abc35c77bbe74c502e3f0886deaa4d5a9d948908d0a5a56ebe957e6b74f7e"
     },
     {
       "path": "hobbly-overview.html",
-      "size": 5834,
-      "sha256": "9b913b49017824d40929400de31ccc90d32917450db3dd38f36761b2bd81dc15"
+      "size": 5956,
+      "sha256": "d42488adda7d76f46468549f52efc7c34af12ef07d9ea7186a5b279641172765"
     },
     {
       "path": "index.html",
-      "size": 8142,
-      "sha256": "7140cdbce87336bb4b2cae93c1a642bd18fab84366bf56fd4f634208679dbb73"
+      "size": 9459,
+      "sha256": "9393322ee27751c1516277414c6c5c7bbcad41f9d825e4497ff6dc85a4941cca"
     },
     {
       "path": "profile-ai-data-product.html",
@@ -105,6 +80,56 @@
       "path": "style.css",
       "size": 2980,
       "sha256": "ff283369ebaced08ed336cb6fac6926b5bd9a6f0b4d2caf6d9aa2e1da42d7d3b"
+    },
+    {
+      "path": "downloads/Igor-Grybek-Master-CV.pdf",
+      "size": 45540,
+      "sha256": "77b26a6a434b2c544c41672ab87e864f0cfb15e1bd69f00fbc6da2aed23f0e3f"
+    },
+    {
+      "path": "downloads/arxa-architecture-whitepaper.pdf",
+      "size": 103385,
+      "sha256": "3853c2dd18f13213bb414a54230b2d78e88992c00e38e1b9637db051c0816220"
+    },
+    {
+      "path": "downloads/arxa-decision-model.xlsx",
+      "size": 8130,
+      "sha256": "9a43dc0b4c279a247d8da8ae1fa3b1d5ce8b346c426e65d9ecf9e2c765f34c08"
+    },
+    {
+      "path": "downloads/arxis-architecture-whitepaper.pdf",
+      "size": 75246,
+      "sha256": "5cd542a0b7a236301845e985b24767e870346180452107ed38083e5a5cfa1578"
+    },
+    {
+      "path": "downloads/arxis-decision-model.xlsx",
+      "size": 7925,
+      "sha256": "1dce1d2b9ba77c4ee6f3859b122891d300fb1d9b1ed07690ef28025e6dcbdef8"
+    },
+    {
+      "path": "downloads/edna-architecture-whitepaper.pdf",
+      "size": 67276,
+      "sha256": "aac48c07bcb37d8f29b0452006b6ef514b703f70c1d6dd7d85b484811b85c9b2"
+    },
+    {
+      "path": "downloads/edna-decision-model.xlsx",
+      "size": 8197,
+      "sha256": "ad961979ec4f7549c423e2bcdf5f93430bb2583661308f7b4d378fa98cb057f3"
+    },
+    {
+      "path": "downloads/hobbly-architecture-whitepaper.pdf",
+      "size": 92752,
+      "sha256": "b50eaeacfe7a97c7c02d6587a6f64fed95fbcdace85a2c6e301d4f111ad0a3af"
+    },
+    {
+      "path": "downloads/hobbly-decision-model.xlsx",
+      "size": 8162,
+      "sha256": "ce3378dddb26c1b94dcaa964d6ae7de652f7392644a122507fb6ab97ac7a7a21"
+    },
+    {
+      "path": "downloads/igor-grybek-high-density-master-cv.pdf",
+      "size": 45540,
+      "sha256": "77b26a6a434b2c544c41672ab87e864f0cfb15e1bd69f00fbc6da2aed23f0e3f"
     }
   ]
 }
