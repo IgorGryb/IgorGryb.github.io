@@ -18,18 +18,18 @@
     },
     {
       "path": "arxa-overview.html",
-      "size": 6184,
-      "sha256": "fbee224a2ecb7ba25734bad6681cafaef9b6c8ea242e158eff0b8b44d1daa393"
+      "size": 6188,
+      "sha256": "05271858eb1c72f7c76e792959c5c7889ec97ec38dd9ce52fe99b6c4799fef3d"
     },
     {
       "path": "arxis-case-study.html",
-      "size": 21039,
-      "sha256": "4b77de2bbf70b15cde6e657727cafe0bc8dc91b18aaa3ff4303ec35093675631"
+      "size": 21034,
+      "sha256": "8efed2b3b5a6fa388045764daea96f766b3263615c1122a9de5cd48bd94a4ddd"
     },
     {
       "path": "arxis-overview.html",
-      "size": 6084,
-      "sha256": "048e64dd4a60c425d03575e4c2f7bd52ba748f9fcad2c27c6a17e82091b28743"
+      "size": 6088,
+      "sha256": "82945c211e493b601028f8ec4eba9ce2e67fcd8d2b96e57b27b005dc7094f120"
     },
     {
       "path": "edna-case-study.html",
@@ -38,8 +38,8 @@
     },
     {
       "path": "edna-overview.html",
-      "size": 5822,
-      "sha256": "4619f82bfe4ce1d949fae2abc9c96de7b40a26b6dab6bc12f980aab35bf750d7"
+      "size": 5826,
+      "sha256": "4164aeb02379ae1655673d095fa54a1788dbf115b0635c4cfdefe778b60123ad"
     },
     {
       "path": "hobbly-case-study.html",
@@ -48,18 +48,18 @@
     },
     {
       "path": "hobbly-overview.html",
-      "size": 5956,
-      "sha256": "d42488adda7d76f46468549f52efc7c34af12ef07d9ea7186a5b279641172765"
+      "size": 5960,
+      "sha256": "7f42663cad263bbc30254fac1180d14815f50415c67bbe2aecca15be2e6ff428"
     },
     {
       "path": "index.html",
-      "size": 9398,
-      "sha256": "be68b5dbb29127ad8a8accf03ec5ea35e54370ff6ea7d44962f20aa4524f0f80"
+      "size": 10258,
+      "sha256": "6e4a4d0d9c9a4aecd05d922394129756ec3ea5af94b75a01eb7c81a51535a9c3"
     },
     {
       "path": "profile-ai-data-product.html",
-      "size": 8397,
-      "sha256": "99a639fe32fb0a1c9becc892f7a75516ee876032a67b89545442944e114c6644"
+      "size": 8409,
+      "sha256": "5d2a63df502695d75a2ac5af1f039350eee7717a62a7ac41776844793d5ceb64"
     },
     {
       "path": "profile-master.html",
@@ -83,8 +83,8 @@
     },
     {
       "path": "downloads/Igor-Grybek-Master-CV.pdf",
-      "size": 45759,
-      "sha256": "b4f7d28895740d9c7f2df0bd4620a3403ba82b11ac2ad8e37764bdb999d5fc55"
+      "size": 46255,
+      "sha256": "5d5142f5ead93c1bf3008573322080809235dc9028025b97314b72c9bcf38a88"
     },
     {
       "path": "downloads/arxa-architecture-whitepaper.pdf",
@@ -108,8 +108,8 @@
     },
     {
       "path": "downloads/edna-architecture-whitepaper.pdf",
-      "size": 56547,
-      "sha256": "2ca18233661d53d2a9ae81ffb3b7fc800a143e4217ee7248ceb44adc84a022fc"
+      "size": 56681,
+      "sha256": "0969e37ecfe93f64e6b90cb7a89a401aeb23c1e3d1e4f64a04fa925ca249c39f"
     },
     {
       "path": "downloads/edna-decision-model.xlsx",
@@ -128,8 +128,8 @@
     },
     {
       "path": "downloads/igor-grybek-high-density-master-cv.pdf",
-      "size": 46293,
-      "sha256": "3c14bf3c5a78627f2198988161d8969339c4a02cd8db0bd4308b08ccf3a24d92"
+      "size": 46987,
+      "sha256": "f45d1b3f079a4d7d0355f0053a709722be23805f7e7822a8c20c770fd5bc221c"
     }
   ]
 }
