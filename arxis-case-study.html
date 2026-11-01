@@ -22,7 +22,7 @@
 
   <main id="main">
     <div class="article">
-      <p class="eyebrow">Proprietary Technology Venture · Infrastructure & AEC Systems Architecture</p>
+      <p class="eyebrow">Open-Source Reference Architecture & Decision Model · AEC Systems Architecture</p>
       
       <div class="downloads">
         <a href="downloads/igor-grybek-high-density-master-cv.pdf" target="_blank">Download Master CV (PDF)</a>
@@ -51,7 +51,7 @@
 
       <h2 id="executive-summary">1. Executive Summary & Mission</h2>
       <p>In large-scale Architecture, Engineering, and Construction (AEC) capital projects, managing design evolution across dozens of specialized contractors is a persistent challenge. A single structural revision can invalidate MEP (Mechanical, Electrical, Plumbing) routings, egress calculations, or fire safety approvals. When changes are communicated via disjointed drawings and informal email chains, uncoordinated discrepancies reach the construction site, resulting in massive rework and contentious contractual claims.</p>
-      <p><strong>ARXIS</strong> was engineered at <strong>Arxa Group</strong> to establish structural integrity across capital project documentation. ARXIS enforces an institutional axiom: <em>traceability does not grant approval</em>. By representing project requirements, technical decisions, and digital assets as a <strong>Directed Acyclic Graph (DAG)</strong>, ARXIS automatically traces the downstream ripple effects of any design change, locks dependencies to immutable version hashes, and mandates explicit RACI sign-offs before physical construction commences.</p>
+      <p><strong>ARXIS</strong> is an open-source design-traceability reference engine authored by <strong>Igor Grybek</strong> to evaluate dependency governance across capital project documentation. Grounded in infrastructure capex experience and CIB audit discipline, ARXIS operates under the institutional axiom: <em>traceability does not grant approval</em>. Operating as a compact Python reference prototype (47 LOC), ARXIS maps requirements, engineering decisions, and documentation artifacts into a tabular specification linkage, auditing version drift and evaluating downstream change impact prior to executive sign-off.</p>
 
       <h2 id="industry-problem">2. Strategic Industry Problem & Context</h2>
       <p>Global studies across mega-infrastructure and commercial real estate reveal that on-site rework represents between 5% and 12% of total construction costs. The root causes trace directly to documentation breakdown:</p>
@@ -189,7 +189,7 @@
       </div>
 
       <h2 id="operating-model">4. 5-Dimensional Multidimensional Model</h2>
-      <p>ARXIS is designed around the Arxa Group Multidimensional Operating Model:</p>
+      <p>ARXIS is designed around the 5-Dimensional Multidimensional Operating Model:</p>
       <ul>
         <li><strong>Technical Model:</strong> Directed Acyclic Graph (DAG) engine with cycle detection algorithms, topological sort for change impact paths, and cryptographic SHA-256 deliverable hashing.</li>
         <li><strong>Product & Operating Workflow:</strong> Governed by a multi-stakeholder RACI matrix:
@@ -207,7 +207,7 @@
             <li><em>FIDIC / AIA Contract Administration:</em> Rigorous evidence logging for change orders and delay claim defense.</li>
           </ul>
         </li>
-        <li><strong>Scaling Roadmap:</strong> Direct integration with Autodesk Construction Cloud (BIM 360), Procore, and Bentley ProjectWise via IFC schema adapters.</li>
+        <li><strong>Scaling Roadmap:</strong> Conceptual architecture designed for open BIM schemas (IFC 4.3) and Common Data Environment (CDE) webhook synchronization.</li>
       </ul>
 
       <h2 id="governance-contract">5. Data Contract & Anomaly Control Matrix</h2>
