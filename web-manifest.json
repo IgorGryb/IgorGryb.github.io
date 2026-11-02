@@ -53,18 +53,18 @@
     },
     {
       "path": "index.html",
-      "size": 10258,
-      "sha256": "6e4a4d0d9c9a4aecd05d922394129756ec3ea5af94b75a01eb7c81a51535a9c3"
+      "size": 10029,
+      "sha256": "edfa6cc7918eb5683ac49e7a14fd036176229de9603025641806fbb39a7dae50"
     },
     {
       "path": "profile-ai-data-product.html",
-      "size": 8409,
-      "sha256": "5d2a63df502695d75a2ac5af1f039350eee7717a62a7ac41776844793d5ceb64"
+      "size": 9315,
+      "sha256": "d081b1432136e05b2b29d940ca822853e7a053566955b31f944608d4ee9b6721"
     },
     {
       "path": "profile-master.html",
-      "size": 10190,
-      "sha256": "c49a7baa8b02bb8cbf40720444480612b5c6e420dea4d32045c27e23ec6bd5e6"
+      "size": 10562,
+      "sha256": "559aeeda14b5bab945efe28903f3531994787454f75e543c0f28a3714955b41d"
     },
     {
       "path": "profile-private-capital.html",
@@ -128,8 +128,8 @@
     },
     {
       "path": "downloads/igor-grybek-high-density-master-cv.pdf",
-      "size": 46987,
-      "sha256": "f45d1b3f079a4d7d0355f0053a709722be23805f7e7822a8c20c770fd5bc221c"
+      "size": 46738,
+      "sha256": "77663374eb2d0caa034a354f1527a8eca37f7d16e6935481627771983da294ea"
     }
   ]
 }
